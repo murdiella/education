@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block main %}
+    <div class="main-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title">
+                        <h2 class="h2 title__h2">Восстановление пароля</h2>
+                        <span class="span title__span _success">Запрос отправлен</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p
+                            class="p mt-5 mb-3"
+                    >
+                        Если пользователь с email {{ email }} зарегистрирован в системе,
+                        на него было отправлено письмо со ссылкой
+                        для сброса пароля. Пожалуйста, установите новый пароль,
+                        перейдя по ссылке в письме.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="notice notice_warning mt-2">
+                        <p class="p notice__p">Если вы не получили письмо, посмотрите не попало ли оно в спам.</p>
+                        <a href="{% url 'accounts:forgot' %}">Запросить сброс пароля снова</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

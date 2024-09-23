@@ -1,0 +1,54 @@
+version: '3.2'
+
+services:
+  backend:
+    image: $IMAGE_BACKEND
+    container_name: backend
+    env_file: .env
+    environment:
+      - SECRET_KEY=$SECRET_KEY
+      - DB_USER=${DB_USER}
+      - DB_HOST=postgres
+    volumes:
+      - static:/usr/src/static
+    networks:
+      - backend
+      - frontend
+
+  postgres:
+    image: postgres
+    container_name: postgres
+    environment:
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - POSTGRES_DB=${DB_NAME}
+    networks:
+      - backend
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+  webserver:
+    image: $IMAGE_WEBSERVER
+    restart: on-failure
+    volumes:
+      - type: volume
+        source: static
+        target: /static
+        read_only: true
+      - ./crt/wildcard_key.crt:/etc/ssl/crt/key.crt
+      - ./crt/mai_ru_2021_12_31.crt:/etc/ssl/crt/cert.crt
+    networks:
+      - frontend
+    ports:
+      - "80:80"
+      - "443:443"
+
+networks:
+  frontend:
+  backend:
+  elknetwork:
+    driver: bridge
+
+volumes:
+  static:
+  db_data:

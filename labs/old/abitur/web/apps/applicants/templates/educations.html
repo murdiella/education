@@ -1,0 +1,244 @@
+{% extends 'base.html' %}
+
+{% block main %}
+    <div class="main-content">
+        <div class="container-fluid">
+            <div class="row mb-4">
+                <div class="col-12">
+                    <div class="title">
+                        <h2 class="h2 title__h2">Образование</h2>
+                    </div>
+                </div>
+            </div>
+            <form
+                    method="POST"
+            >
+                <div class="row">
+                    <div
+                            class="col-md-6 col-xs-12"
+                    >
+                        <div class="form-group">
+                            <label
+                                    class="form__label"
+                                    for="level"
+                            >
+                                Уровень образования<span class="asterisk _danger"> *</span>
+                            </label>
+                            <select
+                                    name="level"
+                                    id="level"
+                                    class="custom-select"
+                                    required
+                            >
+                                <option
+                                        value="null"
+                                        selected
+                                        disabled
+                                >
+                                    Выберите уровень образования
+                                </option>
+                                <option
+                                        value="SC"
+                                >
+                                    Среднее общее
+                                </option>
+                                <option
+                                        value="CL"
+                                >
+                                    Среднее профессиональное
+                                </option>
+                                <option
+                                        value="BA"
+                                >
+                                    Высшее образование (бакалавриат)
+                                </option>
+                                <option
+                                        value="SP"
+                                >
+                                    Высшее образование (специалитет)
+                                </option>
+                                <option
+                                        value="MA"
+                                >
+                                    Высшее образование (магистратура)
+                                </option>
+
+                            </select>
+
+                        </div>
+                    </div>
+
+                    <div
+                            class="col-md-6 col-xs-12"
+                    >
+                        <div class="form-group">
+                            <label
+                                    class="form__label"
+                                    for="document_type"
+                            >
+                                Тип документа<span class="asterisk _danger"> *</span>
+                            </label>
+                            <select
+                                    name="document_type"
+                                    id="document_type"
+                                    class="custom-select"
+                                    required
+                            >
+                                <option
+                                        value="null"
+                                        selected
+                                        disabled
+                                >
+                                    Выберите тип документа
+                                </option>
+                                <option
+                                        value="CT"
+                                >
+                                    Аттестат
+                                </option>
+                                <option
+                                        value="DP"
+                                >
+                                    Диплом
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div
+                            class="col-12"
+                    >
+                        <div class="form-group">
+                            <label
+                                    class="form__label"
+                                    for="name"
+                            >
+                                Наименование учебного заведения<span class="asterisk _danger"> *</span>
+                            </label>
+                            <input
+                                    class="form__input"
+                                    name="name"
+                                    id="name"
+                                    required
+                            />
+                            <div
+                                    class="form__small"
+                            >
+                                Форму организации заведения можно сокращать, например, "МБОУ"
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                            class="col-lg-4 col-md-6 col-xs-12"
+                    >
+                        <label
+                                class="form__label"
+                                for="series"
+                        >
+                            Серия документа
+                        </label>
+                        <input
+                                class="form__input"
+                                name="series"
+                                id="series"
+                        />
+                        <div
+                                class="form__small"
+                        >
+                            Если серии нет, оставьте поле пустым
+                        </div>
+                    </div>
+                    <div
+                            class="col-lg-4 col-md-6 col-xs-12"
+                    >
+                        <label
+                                class="form__label"
+                                for="number"
+                        >
+                            Номер документа
+                        </label>
+                        <input
+                                class="form__input"
+                                name="number"
+                                id="number"
+                        />
+                        <div
+                                class="form__small"
+                        >
+                            Если вы еще не окончили образование, оставьте поле пустым
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label
+                                    class="form__label"
+                                    for="issued_date"
+                            >
+                                Дата выдачи документа
+                            </label>
+                            <div class="form__input_with-icon">
+                                <input
+                                        name="issued_date"
+                                        id="issued_date"
+                                        class="form__input_date"
+                                        value="{{ education.issued_date|date:"d.m.Y" }}"
+                                />
+                            </div>
+                            <div
+                                    class="form__small"
+                            >
+                                Если вы еще не окончили образование, оставьте поле пустым
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                            class="col-lg-4 col-md-6 col-xs-12"
+                    >
+                        <div class="form-group">
+                            <label
+                                    class="form__label"
+                                    for="year"
+                            >
+                                Год окончания<span class="asterisk _danger"> *</span>
+                            </label>
+                            <select
+                                    name="year"
+                                    id="year"
+                                    class="custom-select"
+                                    required
+                            >
+                                <option
+                                        value="null"
+                                        selected
+                                        disabled
+                                >
+                                    Выберите год окончания
+                                </option>
+                                {% for year in years %}
+                                    <option
+                                            value="{{ year }}"
+                                    >
+                                        {{ year }}
+                                    </option>
+                                {% endfor %}
+                            </select>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="form__button form_end text-right">
+                            <input
+                                    type="submit"
+                                    value="Далее"
+                                    name="submit-button"
+                                    class="d-inlineblock button button_lg button_blue"
+                            />
+                        </div>
+                    </div>
+                </div>
+                {% csrf_token %}
+            </form>
+        </div>
+    </div>
+{% endblock %}

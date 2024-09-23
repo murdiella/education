@@ -1,0 +1,11 @@
+[run]
+omit =  .venv/*
+        /home/devsagul/.cache/*
+        *migration*
+        *__init__*
+        *test*
+        manage.py
+        app/asgi.py
+        app/wsgi.py
+        **/apps.py
+        settings/*

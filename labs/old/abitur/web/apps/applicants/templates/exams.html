@@ -1,0 +1,207 @@
+{% extends 'base.html' %}
+
+{% block main %}
+    <div class="main-content">
+        <div class="container-fluid">
+            <div class="row mb-4">
+                <div class="col-12">
+                    <div class="title">
+                        <h2 class="h2 title__h2">ЕГЭ</h2>
+                    </div>
+                </div>
+            </div>
+            <form
+                    method="POST"
+            >
+                <div id="exams"
+                     class="row">
+                </div>
+                <div class="row">
+                    <button
+                            class="btn btn-link"
+                            id="add_exam"
+                    >
+                        Добавить экзамен
+                    </button>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="form__button form_end text-right">
+                            <input
+                                    type="submit"
+                                    value="Далее"
+                                    name="submit-button"
+                                    class="d-inlineblock button button_lg button_blue"
+                            />
+                        </div>
+                    </div>
+                </div>
+                {% csrf_token %}
+            </form>
+
+        </div>
+    </div>
+
+
+    <script type="text/javascript">
+        function add_exam(event) {
+            const elem = $("#exams")
+            const item = `
+            <div
+                    class="col-sm-12 col-lg-4"
+            >
+                <div class="form-group">
+                <label
+                        class="form__label"
+                        for="subject[]"
+                >
+                    Предмет<span class="asterisk _danger"> *</span>
+                </label>
+                <select
+                        name="subject[]"
+                        id="subject[]"
+                        class="custom-select"
+                        required
+                >
+                    <option
+                            value="null"
+                            disabled
+                            selected
+                    >
+                        Выберите предмет
+                    </option>
+                    <option
+                            value="RU"
+                    >
+                        Русский язык
+                    </option>
+                    <option
+                            value="MT"
+                    >
+                        Математика
+                    </option>
+                    <option
+                            value="GE"
+                    >
+                        География
+                    </option>
+                    <option
+                            value="HS"
+                    >
+                        История
+                    </option>
+                    <option
+                            value="SC"
+                    >
+                        Обществознание
+                    </option>
+                    <option
+                            value="PH"
+                    >
+                        Физика
+                    </option>
+                    <option
+                            value="EN"
+                    >
+                        Английский язык
+                    </option>
+                    <option
+                            value="FR"
+                    >
+                        Французский язык
+                    </option>
+                    <option
+                            value="GM"
+                    >
+                        Немецкий язык
+                    </option>
+                    <option
+                            value="SP"
+                    >
+                        Испанский язык
+                    </option>
+                    <option
+                            value="IT"
+                    >
+                        Информатика и ИКТ
+                    </option>
+                    <option
+                            value="FO"
+                    >
+                        Иностранный язк
+                    </option>
+                    <option
+                            value="CN"
+                    >
+                        Китайский язык
+                    </option>
+                    </select>
+                </div>
+            </div>
+            <div
+                    class="col-sm-12 col-lg-4"
+            >
+                <div class="form-group">
+                <label
+                        class="form__label"
+                        for="year[]"
+                >
+                    Год<span class="asterisk _danger"> *</span>
+                </label>
+                            <select
+                                    name="year[]"
+                                    id="year[]"
+                                    class="custom-select"
+                                    required
+                            >
+                                <option
+                                        value="null"
+                                        selected
+                                        disabled
+                                >
+                                    Выберите год сдачи
+                                </option>
+                                {% for year in years %}
+                                    <option
+                                            value="{{ year }}"
+                                    >
+                                        {{ year }}
+                                    </option>
+                                {% endfor %}
+                            </select>
+                            </div>
+            </div>
+            <div
+                    class="col-sm-12 col-lg-4"
+            >
+                <div class="form-group">
+                <label
+                        class="form__label"
+                        for="mark[]"
+                >
+                    Балл
+                </label>
+                <input
+                    name="mark[]"
+                    type="number"
+                    step="1"
+                    min="0"
+                    max="100"
+                >
+						<div
+								class="form__small"
+						>
+						    Если вы только планируете сдавать экзамен в этом году,
+						    оставьте это поле пустым
+						</div>
+                </div>
+            </div>
+        `
+            elem.append(item)
+            event.stopPropagation()
+            return false
+        }
+
+        document.getElementById("add_exam").onclick = add_exam
+    </script>
+{% endblock %}

@@ -1,0 +1,154 @@
+{% extends 'base.html' %}
+
+{% block main %}
+    <div class="speciality-page invisible">
+        <div class="main-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="title">
+                            <h2 class="h2 title__h2">Выбор направления</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="search-with-icon">
+                        <input class="form__input form-input_search" type="text" id="searchInput"
+                               placeholder="Шифр или название программы">
+                    </div>
+                </div>
+            </div>
+
+            <form method="POST">
+                {% for speciality in specialities %}
+                    {# Специальность #}
+                    <div class="speciality-block" data-item-id="{{ speciality.pk }}" id="{{ speciality.pk }}">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-10 col-md-1 order-sm-1">
+                                    <div class="speciality__image">
+                                        <img src="/static/img/item-{{ speciality.mega_direction_number }}.svg">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-10 order-3 order-md-2">
+                                    <div class="speciality-block__subtitle">Направление подготовки</div>
+                                    <h4 class="speciality-block__title _searching_by_name">{{ speciality.name }}</h4>
+                                </div>
+                                <div class="col-2 col-md-1 order-2 order-md-3">
+                                    <div class="speciality__checkbox">
+                                        <input type="checkbox" class="form__checkbox"
+                                               id="speciality_check_{{ speciality.pk }}"
+                                               data-item-id="{{ speciality.pk }}">
+                                        <label class="form__check-label form__check-label_light speciality_check"
+                                               for="speciality_check_{{ speciality.pk }}"></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="offset-md-1 col-md-11 col-12">
+                                    <div class="speciality-block__info-block">
+                                        <p class="speciality__id _searching_by_number">{{ speciality.code }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {# Специальность #}
+                {% endfor %}
+
+
+                <div class="speciality-block speciality-block_form-control">
+                    <div class="container">
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form__button form_end text-right">
+                                    <button type="submit" class="button button_lg button_blue">Далее</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <input type="hidden" class="input_hidden input_speciality" name="speciality[1]" value="">
+                <input type="hidden" class="input_hidden input_speciality" name="speciality[2]" value="">
+                <input type="hidden" class="input_hidden input_speciality" name="speciality[3]" value="">
+                <input type="hidden" class="input_hidden input_speciality" name="speciality[4]" value="">
+                <input type="hidden" class="input_hidden input_speciality" name="speciality[5]" value="">
+                <input type="hidden" class="input_hidden input_speciality" name="speciality[6]" value="">
+                <input type="hidden" class="input_hidden input_speciality" name="speciality[7]" value="">
+                {% csrf_token %}
+
+            </form>
+
+        </div>
+    </div>
+
+    <script src="/static/js/search.js"></script>
+    <style>.speciality-block:not(.speciality-block_form-control) {
+        cursor: pointer;
+    }</style>
+
+    <style scoped type="text/css"> @import url(/static/css/ui.speciality.css); </style>
+    <script>
+        (function ($) {
+
+            const limit = 7;
+
+            $(function () {
+
+                //	Восстанавливаем значения, переданные сервером
+                $('.input_speciality').each(function () {
+                    $('#speciality_' + this.value)
+                        .addClass('active')
+                        .find('input.form__checkbox').prop('checked', true);
+                });
+
+                $('.speciality-page').removeClass('invisible');
+                $('.speciality-block:not(.speciality-block_form-control)').click(function (event) {
+
+                    if ($(event.target).hasClass('form__checkbox'))
+                        return false;
+
+                    var $this = $(this);
+
+                    if ($this.hasClass('active')) {
+                        $this.removeClass('active');
+                        $this.find('input.form__checkbox').prop('checked', false);
+                    } else {
+                        //	Если число выбранных направлений превысило лимит, надо показать сообщение
+                        if ($('.speciality-block input.form__checkbox:checked').length >= limit) {
+                            // show notice modal
+
+                        } else {
+                            $this.find('input.form__checkbox').prop('checked', true);
+                            $this.addClass('active');
+                        }
+                    }
+                    var $selected = $('.speciality-block input.form__checkbox:checked');
+                    $('.input_hidden.input_speciality').each(function (index) {
+                        this.value = $selected.eq(index).data('itemId') || '';
+                    });
+                });
+            });
+
+        })(jQuery);
+    </script>
+    <style>
+        .button_application {
+            color: #3b3b3b;
+            background-color: #c2ebff;
+            border-radius: 1rem;
+            font-size: .75em;
+            font-weight: 600;
+            padding: 4px 16px;
+            display: inline-block;
+            margin-right: 4px;
+            margin-bottom: 9px;
+        }
+    </style>
+
+
+{% endblock %}

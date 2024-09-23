@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>643</width>
+    <height>764</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>30</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Database Viewer</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="go_button">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>610</y>
+      <width>171</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>View</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="type_button">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>400</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Type</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="like_button">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>420</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Like</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="between_button">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>440</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Between</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="inequal_button">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>460</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>!=</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="equal_button">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>480</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>=</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="bigger_button">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>460</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&gt;</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="bigger_or_equal_button">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>480</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&gt;=</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="lesser_button">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>460</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="lesser_or_equal_button">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>480</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>=&lt;</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="condition_boundary_text">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>530</y>
+      <width>501</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="None_button">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>400</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>None</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>270</y>
+      <width>241</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="tables_layout">
+     <item>
+      <widget class="QListWidget" name="tables_list"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>270</y>
+      <width>241</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="columns_layout">
+     <item>
+      <widget class="QListWidget" name="columns_list"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>400</y>
+      <width>241</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="condition_object_layout">
+     <item>
+      <widget class="QListWidget" name="condition_object_list"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>60</y>
+      <width>501</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="contains_layout">
+     <item row="0" column="0">
+      <widget class="QTableWidget" name="view_contains"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="start_button">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>240</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Start</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_4">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>590</y>
+      <width>241</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="order_layout">
+     <item>
+      <widget class="QListWidget" name="order_list"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>570</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Order by:</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>643</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

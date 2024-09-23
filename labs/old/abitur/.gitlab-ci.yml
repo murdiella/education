@@ -1,0 +1,240 @@
+stages:
+  - build
+  - integration
+  - package
+  - test
+  - deploy
+
+services:
+  - name: docker:dind
+    command: ["--insecure-registry=gitlab.mai.ru:5050"]
+
+variables:
+  DOCKER_DRIVER: overlay2
+  DOCKER_TLS_CERTDIR: ""
+
+Install dependencies:
+  stage: build
+  image: python:3.9.1-buster
+  script:
+    - pip3 install keyrings.alt
+    - pip3 install poetry
+    - poetry config virtualenvs.in-project true
+    - poetry install -vv
+
+
+Linting Web Application:
+  stage: integration
+  image: python:3.9.1-buster
+  script:
+    - pip3 install keyrings.alt
+    - pip3 install poetry
+    - poetry config virtualenvs.in-project true
+    - poetry install -vv
+    - poetry config virtualenvs.in-project true
+    - poetry run pylint web/apps --fail-under=0.0
+
+#Typehinting Web Application:
+#  <<: *integration-web
+#  script:
+#    - poetry run mypy apps
+
+Formatting Web Application:
+  stage: integration
+  image: python:3.9.1-buster
+  script:
+    - pip3 install keyrings.alt
+    - pip3 install poetry
+    - poetry config virtualenvs.in-project true
+    - poetry install -vv
+    - poetry config virtualenvs.in-project true
+    - poetry run black --check web/apps
+
+Developer Testing Web Application:
+  stage: integration
+  image: python:3.9.1-buster
+  variables:
+    DJANGO_ENVIRONMENT: production
+    SECRET_KEY: test
+  script:
+    - pip3 install keyrings.alt
+    - pip3 install poetry
+    - poetry config virtualenvs.in-project true
+    - poetry install -vv
+    - poetry config virtualenvs.in-project true
+    - poetry run pytest web/apps
+
+Build Backend:
+  stage: package
+  image: docker/compose
+  before_script:
+    - echo -n $CI_JOB_TOKEN | docker login -u gitlab-ci-token --password-stdin gitlab.mai.ru:5050
+    - cp ./environments/.env.ci .env
+  variables:
+    IMAGE_BACKEND: $CI_REGISTRY_IMAGE/backend:$CI_COMMIT_SHA
+  after_script:
+    - docker logout gitlab.mai.ru:5050
+  script:
+    - docker-compose pull $CI_REGISTRY_IMAGE/backend || true
+    - docker-compose build backend
+    - docker-compose push backend
+
+
+Build HTTPS Webserver:
+  stage: package
+  image: docker/compose
+  before_script:
+    - echo -n $CI_JOB_TOKEN | docker login -u gitlab-ci-token --password-stdin gitlab.mai.ru:5050
+    - cp ./environments/.env.ci .env
+  variables:
+    IMAGE_WEBSERVER: $CI_REGISTRY_IMAGE/webserver/https:$CI_COMMIT_SHA
+  after_script:
+    - docker logout gitlab.mai.ru:5050
+  script:
+    - docker-compose pull $CI_REGISTRY_IMAGE/webserver/https || true
+    - docker-compose build --build-arg ENVIRONMENT="prod" webserver
+    - docker-compose push webserver
+
+Build HTTP Webserver:
+  stage: package
+  image: docker/compose
+  before_script:
+    - echo -n $CI_JOB_TOKEN | docker login -u gitlab-ci-token --password-stdin gitlab.mai.ru:5050
+    - cp ./environments/.env.ci .env
+  variables:
+    IMAGE_WEBSERVER: $CI_REGISTRY_IMAGE/webserver/http:$CI_COMMIT_SHA
+  after_script:
+    - docker logout gitlab.mai.ru:5050
+  script:
+    - docker-compose pull $CI_REGISTRY_IMAGE/webserver/http || true
+    - docker-compose build --build-arg ENVIRONMENT="dev" webserver
+    - docker-compose push webserver
+
+
+Build Database:
+  stage: package
+  image: docker/compose
+  before_script:
+    - echo -n $CI_JOB_TOKEN | docker login -u gitlab-ci-token --password-stdin gitlab.mai.ru:5050
+    - cp ./environments/.env.ci .env
+  variables:
+    IMAGE_DATABASE: $CI_REGISTRY_IMAGE/postgres:$CI_COMMIT_SHA
+  after_script:
+    - docker logout gitlab.mai.ru:5050
+  script:
+    - docker-compose pull $CI_REGISTRY_IMAGE/postgres || true
+    - docker-compose build postgres
+    - docker-compose push postgres
+
+
+Functional Testing:
+  stage: test
+  image: docker/compose
+  before_script:
+    - cp environments/.env.production .env
+    - echo -n $CI_JOB_TOKEN | docker login -u gitlab-ci-token --password-stdin gitlab.mai.ru:5050
+  environment:
+    name: production
+  variables:
+    DJANGO_ENVIRONMENT: production
+    SECRET_KEY: sikret
+    IMAGE_WEBSERVER: $CI_REGISTRY_IMAGE/webserver/http:$CI_COMMIT_SHA
+    IMAGE_BACKEND: $CI_REGISTRY_IMAGE/backend:$CI_COMMIT_SHA
+    DOCKER_DRIVER: overlay2
+    DOCKER_TLS_CERTDIR: ""
+  script:
+    - echo "SECRET_KEY=${SECRET_KEY}" >> .env
+    - echo "DB_USER=${DB_USER}" >> .env
+    - echo "DB_PASSWORD=${DB_PASSWORD}" >> .env
+    - echo "DB_NAME=${DB_NAME}" >> .env
+    - echo "DB_HOST=postgres" >> .env
+    - echo "DB_PORT=5432" >> .env
+    - echo "POSTGRES_USER=${DB_USER}" >> .env
+    - echo "POSTGRES_PASSWORD=${DB_PASSWORD}" >> .env
+    - echo "POSTGRES_DB=${DB_NAME}" >> .env
+    - echo "EMAIL_HOST=mailcatcher" >> .env
+    - echo "EMAIL_PORT=1025" >> .env
+    - echo "EMAIL_USER=''" >> .env
+    - echo "EMAIL_PASSWORD=''" >> .env
+    - echo "EMAIL_USE_TLS=False" >> .env
+    # - echo "ODATA_PROTOCOL=${ODATA_PROTOCOL}" >> .env
+    # - echo "ODATA_HOST=${ODATA_HOST}" >> .env
+    # - echo "ODATA_PORT=${ODATA_PORT}" >> .env
+    # - echo "ODATA_INFOBASE=${ODATA_INFOBASE}" >> .env
+    # - echo "ODATA_USER=${ODATA_USER}" >> .env
+    # - echo "ODATA_PASSWORD=${ODATA_PASSWORD}" >> .env
+    # - echo "WSDL_URL=${WSDL_URL}" >> .env
+    # - echo "WSDL_USER=${WSDL_USER}" >> .env
+    # - echo "WSDL_PASSWORD=${WSDL_PASSWORD}" >> .env
+    - echo "IMAGE_BACKEND=${CI_REGISTRY_IMAGE}/backend:${CI_COMMIT_SHA}" >> .env
+    - echo "IMAGE_WEBSERVER=${CI_REGISTRY_IMAGE}/webserver/http:${CI_COMMIT_SHA}" >> .env
+    - echo "IMAGE_DATABASE=${CI_REGISTRY_IMAGE}/postgres:${CI_COMMIT_SHA}" >> .env
+    # ensure no containers are run
+    - docker-compose pull || true
+    - docker-compose -f docker-compose.yml -f docker-compose.test.yml build accept
+    - >
+      docker-compose
+      -f docker-compose.yml
+      -f docker-compose.test.yml
+      down
+      -v
+    - >
+      docker-compose
+      -f docker-compose.yml
+      -f docker-compose.test.yml
+      up
+      --abort-on-container-exit
+      --exit-code-from
+      accept
+  after_script:
+    - docker logout gitlab.mai.ru:5050
+
+Deploy to Production:
+  stage: deploy
+  image: gitlab/dind
+  environment:
+    name: production
+  only:
+    - "master"
+  before_script:
+    - mkdir -p ~/.ssh
+    - echo "$DEPLOY_SERVER_SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+    - chmod 600 ~/.ssh/id_rsa
+    - eval "$(ssh-agent -s)"
+    - ssh-add ~/.ssh/id_rsa
+    - ssh-keyscan -H $DEPLOYMENT_SERVER >> ~/.ssh/known_hosts
+  script:
+    - cp environments/.env.production .env
+    - echo "SECRET_KEY=${SECRET_KEY}" >> .env
+    - echo "DB_USER=${DB_USER}" >> .env
+    - echo "DB_PASSWORD=${DB_PASSWORD}" >> .env
+    - echo "DB_NAME=${DB_NAME}" >> .env
+    - echo "DB_HOST=postgres" >> .env
+    - echo "DB_PORT=5432" >> .env
+    - echo "POSTGRES_USER=${DB_USER}" >> .env
+    - echo "POSTGRES_USER=${DB_USER}" >> .env
+    - echo "POSTGRES_PASSWORD=${DB_PASSWORD}" >> .env
+    - echo "POSTGRES_DB=${DB_NAME}" >> .env
+    - echo "EMAIL_HOST=${EMAIL_HOST}" >> .env
+    - echo "EMAIL_PORT=${EMAIL_PORT}" >> .env
+    - echo "EMAIL_USER=${EMAIL_USER}" >> .env
+    - echo "EMAIL_PASSWORD=${EMAIL_PASSWORD}" >> .env
+    - echo "EMAIL_USE_TLS=${EMAIL_USE_TLS}" >> .env
+    - echo "ODATA_PROTOCOL=${ODATA_PROTOCOL}" >> .env
+    - echo "ODATA_HOST=${ODATA_HOST}" >> .env
+    - echo "ODATA_PORT=${ODATA_PORT}" >> .env
+    - echo "ODATA_INFOBASE=${ODATA_INFOBASE}" >> .env
+    - echo "ODATA_USER=${ODATA_USER}" >> .env
+    - echo "ODATA_PASSWORD=${ODATA_PASSWORD}" >> .env
+    - echo "WSDL_URL=${WSDL_URL}" >> .env
+    - echo "WSDL_USER=${WSDL_USER}" >> .env
+    - echo "WSDL_PASSWORD=${WSDL_PASSWORD}" >> .env
+    - echo "IMAGE_BACKEND=${CI_REGISTRY_IMAGE}/backend:${CI_COMMIT_SHA}" >> .env
+    - echo "IMAGE_WEBSERVER=${CI_REGISTRY_IMAGE}/webserver/https:${CI_COMMIT_SHA}" >> .env
+    - echo "IMAGE_DATABASE=${CI_REGISTRY_IMAGE}/postgres:${CI_COMMIT_SHA}" >> .env
+    - scp ./.env gitlab@${DEPLOYMENT_SERVER}:~/lk-abit/
+    - scp ./docker-compose.deploy.yml gitlab@${DEPLOYMENT_SERVER}:~/lk-abit/docker-compose.yml
+    - >
+      ssh gitlab@$DEPLOYMENT_SERVER "cd lk-abit; echo -n ${REGISTRY_TOKEN} | docker login -u gitlab-ci-token --password-stdin gitlab.mai.ru:5050;
+      docker-compose stop; docker-compose pull; docker-compose up -d
+      "

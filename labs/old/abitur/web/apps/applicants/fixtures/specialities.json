@@ -1,0 +1,122 @@
+[
+{
+    "model": "applicants.speciality",
+    "pk": 1,
+    "fields": {
+        "ref": "0",
+        "mega_direction_number": "1",
+        "mega_direction_name": "1",
+        "name": "1",
+        "code": "1",
+        "system_code": "1"
+    }
+},
+{
+    "model": "applicants.speciality",
+    "pk": 2,
+    "fields": {
+        "ref": "1",
+        "mega_direction_number": "1",
+        "mega_direction_name": "1",
+        "name": "1",
+        "code": "1",
+        "system_code": "1"
+    }
+},
+{
+    "model": "applicants.speciality",
+    "pk": 3,
+    "fields": {
+        "ref": "2",
+        "mega_direction_number": "1",
+        "mega_direction_name": "1",
+        "name": "1",
+        "code": "1",
+        "system_code": "1"
+    }
+},
+{
+    "model": "applicants.speciality",
+    "pk": 4,
+    "fields": {
+        "ref": "3",
+        "mega_direction_number": "1",
+        "mega_direction_name": "1",
+        "name": "1",
+        "code": "1",
+        "system_code": "1"
+    }
+},
+{
+    "model": "applicants.speciality",
+    "pk": 5,
+    "fields": {
+        "ref": "4",
+        "mega_direction_number": "1",
+        "mega_direction_name": "1",
+        "name": "1",
+        "code": "1",
+        "system_code": "1"
+    }
+},
+{
+    "model": "applicants.speciality",
+    "pk": 6,
+    "fields": {
+        "ref": "5",
+        "mega_direction_number": "1",
+        "mega_direction_name": "1",
+        "name": "1",
+        "code": "1",
+        "system_code": "1"
+    }
+},
+{
+    "model": "applicants.speciality",
+    "pk": 7,
+    "fields": {
+        "ref": "6",
+        "mega_direction_number": "1",
+        "mega_direction_name": "1",
+        "name": "1",
+        "code": "1",
+        "system_code": "1"
+    }
+},
+{
+    "model": "applicants.speciality",
+    "pk": 8,
+    "fields": {
+        "ref": "7",
+        "mega_direction_number": "1",
+        "mega_direction_name": "1",
+        "name": "1",
+        "code": "1",
+        "system_code": "1"
+    }
+},
+{
+    "model": "applicants.speciality",
+    "pk": 9,
+    "fields": {
+        "ref": "8",
+        "mega_direction_number": "1",
+        "mega_direction_name": "1",
+        "name": "1",
+        "code": "1",
+        "system_code": "1"
+    }
+},
+{
+    "model": "applicants.speciality",
+    "pk": 10,
+    "fields": {
+        "ref": "9",
+        "mega_direction_number": "1",
+        "mega_direction_name": "1",
+        "name": "1",
+        "code": "1",
+        "system_code": "1"
+    }
+}
+]

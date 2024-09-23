@@ -1,0 +1,75 @@
+{% extends 'email/base.html' %}
+
+{% block main %}
+    <tr>
+        <td>
+            <table width="100%" cellpadding="0" cellspacing="0"
+                   style="border-spacing:0;margin:0; padding:0;background-color:#e2f1f6;font-size:0px;">
+                <tr>
+                    <td>
+                        <table align="center" border="0" cellpadding="0" cellspacing="0"
+                               style="padding-top:40px;padding-bottom:60px;padding-right:20px;padding-left:20px;text-align:center;width:100%;max-width:680px;">
+                            <tr>
+                                <td style="padding:0;margin:0;">
+                                    <table width="100%" cellpadding="0" cellspacing="0" style="border-spacing:0;">
+                                        <tr>
+                                            <td align="left"
+                                                style="padding-top:0px;padding-bottom:0px;padding-right:10px;padding-left:0px;text-align:left;">
+                                                <img src="https://dev.mai.ru/mailing/LKA/images/digitalApplicant.png"
+                                                     width="166" alt="" style="width:100%;max-width:166px;height:auto;">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td style="padding:0;margin:0;">
+                                    <table width="100%" cellpadding="0" cellspacing="0" style="border-spacing:0;">
+                                        <tr>
+                                            <td align="right"
+                                                style="padding-top:6px;padding-bottom:0px;padding-right:0px;padding-left:10px;">
+                                                <img src="https://dev.mai.ru/mailing/LKA/images/admission2020.png?2020"
+                                                     width="186" alt="" style="width:100%;max-width:186px;height:auto;">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center"
+                        style="padding-top:10px;padding-bottom:0px;padding-right:15px;padding-left:15px;text-align:center;width:100%">
+                        <img src="https://dev.mai.ru/mailing/LKA/images/layout-lk_{% block image %}17{% endblock %}.png" width="300"
+                             alt="{% block alt_image %}{% endblock %}" style="width:100%;max-width:300px;height:auto;">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table align="center" border="0" cellpadding="0" cellspacing="0"
+                               style="padding-top:20px;padding-bottom:40px;padding-right:20px;padding-left:20px;text-align:center;width:100%;max-width:440px;">
+
+                            <tr>
+                                <td align="left"
+                                    style="padding-top:19px;padding-bottom:15px;padding-right:0px;padding-left:0px;text-align:left;width:100%">
+
+                                    <span style="-webkit-text-size-adjust:none;text-decoration:none;color:#000000;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:28px;font-weight:normal;display: block;">{% block message %}{% endblock %}</span>
+
+
+                                    <p style="padding-top:30px;padding-bottom:60px;-webkit-text-size-adjust:none;text-decoration:none;color:#000000;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:28px;font-weight:normal;display: block;">{{ url }}</p>
+
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td style="padding-top:15px;padding-bottom:32px;padding-right:0px;padding-left:0px;width:100%;">
+
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+{% endblock %}

@@ -1,0 +1,263 @@
+.h4 {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.search-with-icon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 42px;
+  -webkit-border-radius: .25rem;
+          border-radius: .25rem;
+  height: 42px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.search-with-icon > label {
+  margin-bottom: 0;
+  width: 40px;
+  color: #9b9b9b;
+  height: 40px;
+  padding: 9px 9px 9px 13px;
+  position: absolute;
+}
+
+.search-with-icon > label:focus {
+  outline: none;
+  border: solid 1px #4d34ff;
+}
+
+.form-input_search {
+  height: 40px;
+  padding-left: 40px;
+}
+
+.speciality-page__edit-btn {
+  font-size: 12px;
+  font-weight: 500;
+  color: #0096e3;
+  line-height: 16px;
+}
+
+.speciality-page__h4 {
+  color: #4b4b4b;
+  margin-right: 30px;
+}
+
+.button_speciality-page {
+  font-size: 12px;
+  color: #353535;
+  background-color: #c2ebff;
+  border: none;
+  padding: 3px 8px;
+  margin-right: 4px;
+  margin-bottom: 9px;
+}
+
+.speciality-page__button-block {
+  padding-top: 2px;
+  margin-bottom: 11px;
+}
+
+.speciality-page__subtitle {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 40px;
+  flex-wrap: wrap;
+}
+
+.speciality-block
+{
+	margin-top: 13px;
+	padding: 38px 50px 25px 50px;
+	background-color: #fff;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	overflow: hidden;
+}
+.speciality-block._nogutters
+{
+	margin: 0;
+	padding: 0;
+	border-radius: 0;
+	background-color: none;
+	overflow: visible;
+}
+.speciality-block__subtitle {
+  font-size: 12px;
+  color: #929292;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+
+.speciality-block__title {
+  font-size: 14px;
+  color: #000000;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 11px;
+}
+
+.speciality-block__info-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.speciality-block__info-block > p {
+  color: #000;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 0;
+  margin-right: 30px;
+}
+
+.speciality-block__h4 {
+  margin-bottom: 10px;
+  padding-top: 20px;
+  color: #434343;
+}
+
+.speciality_check {
+  margin-top: 15px;
+  padding-left: 18px;
+  float: right;
+}
+.speciality_check::before {
+  margin: 0;
+}
+
+
+.speciality__image {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.speciality-block__button-block {
+  margin-bottom: 3px;
+}
+
+.button_speciality-block {
+  font-weight: 400;
+  color: #000000;
+  background-color: #9ae2ef;
+  border: 1px solid #9ae2ef;
+  font-size: 14px;
+  padding: 5px 14px;
+  margin-right: 3px;
+}
+
+.button_speciality-block.active {
+  background-color: #43c0d7;
+  border: 1px solid #43c0d7;
+}
+
+.button_speciality-block:hover {
+  background-color: #43c0d7;
+  border: 1px solid #43c0d7;
+}
+
+.speciality-block__priority .p {
+  color: #000000;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.speciality-block.active {
+  background-color: #c0f1f9;
+}
+
+.speciality-block.active .speciality_check:before {
+  border: 1px solid #a7d2d9;
+  background-color: #c0f1f9;
+}
+
+
+
+.speciality-block .form_end {
+  padding-top: 106px;
+  padding-bottom: 40px;
+}
+.speciality__image img {
+  width: 24px;
+  height: auto;
+}
+
+.disable1.disable2 {
+  display: none;
+}
+.highlight {
+  color: #ff9c00;
+}
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .speciality__id, .speciality__department {
+    width: 20%;
+  }
+  .speciality__name, .speciality__city {
+    width: 80%;
+  }
+  .speciality-block__info-block > p {
+    margin-right: 0;
+  }
+  .speciality-block {
+    padding: 38px 40px 25px 40px;
+  }
+  .speciality-block .form_end {
+    padding-top: 80px;
+    padding-bottom: 25px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 576px) {
+  .speciality-block__info-block > p {
+    width: 100%;
+  }
+  .speciality-block {
+    padding: 30px 10px;
+  }
+  .speciality-block .form_end {
+    padding-top: 60px;
+    padding-bottom: 25px;
+  }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .button_speciality-block {
+    font-size: 12px;
+    padding: 4px 7px;
+    margin-right: 1px;
+  }
+  .speciality-block {
+    padding: 20px 0px;
+  }
+  .speciality-block .form_end {
+    padding-top: 50px;
+    padding-bottom: 5px;
+  }
+}

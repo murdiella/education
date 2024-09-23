@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block main %}
+    <div class=" card-holder">
+        <div class="row d-lg-flex">
+            <div class="col-xs-12 col-md-6 d-flex">
+                <div class="card card_white d-flex flex-column justify-content-center col-12">
+                    <div class="mb-3 mb-lg-5">
+                        <h6 class="text-center px-5 pt-5 pb-3 m-0">Я хочу подать заявление о&nbsp;поступлении в&nbsp;МАИ
+                            впервые.</h6>
+                        <p class="text-center text-smaller text-hint px-5 my-lg-4" style="font-weight: 600;">Для тех,
+                            кто ещё не подавал заявление ни&nbsp;лично, ни&nbsp;через&nbsp;личный кабинет.</p>
+                    </div>
+                    <div class="mb-5 text-center"><a class="d-inlineblock button button_lg button_blue"
+                                                     href="{% url 'accounts:signup' %}">Подать заявление</a></div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6 d-flex">
+                <div class="card card_white d-flex justify-content-center col-12">
+                    <div class="mb-3 mb-lg-5">
+                        <h6 class="text-center px-5 pt-5 pb-3 m-0">Я забыл(-а) пароль.</h6>
+                        <p class="text-center text-smaller text-hint px-5" style="font-weight: 600;">Пароль можно
+                            восстановить с помощью электронной почты, которая была указана вами в&nbsp;заявлении.</p>
+                    </div>
+                    <div class="mb-5 text-center"><a class="d-inlineblock button button_md button_light"
+                                                     href="{% url 'accounts:forgot' %}">Восстановить пароль</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

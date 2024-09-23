@@ -1,0 +1,20 @@
+[
+{
+    "model": "geography.country",
+    "pk": 1,
+    "fields": {
+        "code": "643",
+        "name": "Российская Федерация",
+        "ref": "1"
+    }
+},
+{
+    "model": "geography.country",
+    "pk": 2,
+    "fields": {
+        "code": "933",
+        "name": "Республика Беларусь",
+        "ref": "2"
+    }
+}
+]

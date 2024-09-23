@@ -1,0 +1,4197 @@
+(['G:\\solyanka documentov\\Projects\\Python\\diplomas\\app.py'],
+ ['G:\\solyanka documentov\\Projects\\Python\\diplomas'],
+ [],
+ ['G:\\solyanka '
+  'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\_pyinstaller',
+  'G:\\solyanka '
+  'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks',
+  'G:\\solyanka '
+  'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks'],
+ {},
+ [],
+ [],
+ False,
+ {},
+ [],
+ [],
+ '3.11.6 (tags/v3.11.6:8b6ee5b, Oct  2 2023, 14:57:12) [MSC v.1935 64 bit '
+ '(AMD64)]',
+ [('pyi_rth_inspect',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth_mplconfig',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_mplconfig.py',
+   'PYSOURCE'),
+  ('pyi_rth_pyqt5',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyqt5.py',
+   'PYSOURCE'),
+  ('app',
+   'G:\\solyanka documentov\\Projects\\Python\\diplomas\\app.py',
+   'PYSOURCE')],
+ [('_pyi_rth_utils',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyInstaller\\fake-modules\\_pyi_rth_utils\\__init__.py',
+   'PYMODULE'),
+  ('_pyi_rth_utils._win32',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyInstaller\\fake-modules\\_pyi_rth_utils\\_win32.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ctypes\\wintypes.py',
+   'PYMODULE'),
+  ('ctypes',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('struct',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\struct.py',
+   'PYMODULE'),
+  ('_pyi_rth_utils.tempfile',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyInstaller\\fake-modules\\_pyi_rth_utils\\tempfile.py',
+   'PYMODULE'),
+  ('tempfile',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tempfile.py',
+   'PYMODULE'),
+  ('random',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\random.py',
+   'PYMODULE'),
+  ('_strptime',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_strptime.py',
+   'PYMODULE'),
+  ('datetime',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\datetime.py',
+   'PYMODULE'),
+  ('calendar',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\calendar.py',
+   'PYMODULE'),
+  ('argparse',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\argparse.py',
+   'PYMODULE'),
+  ('textwrap',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\textwrap.py',
+   'PYMODULE'),
+  ('copy',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\copy.py',
+   'PYMODULE'),
+  ('gettext',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\gettext.py',
+   'PYMODULE'),
+  ('statistics',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\statistics.py',
+   'PYMODULE'),
+  ('decimal',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('contextvars',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\contextvars.py',
+   'PYMODULE'),
+  ('fractions',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\fractions.py',
+   'PYMODULE'),
+  ('numbers',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\numbers.py',
+   'PYMODULE'),
+  ('hashlib',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\hashlib.py',
+   'PYMODULE'),
+  ('logging',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('pickle',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\pickle.py',
+   'PYMODULE'),
+  ('pprint',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\pprint.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\dataclasses.py',
+   'PYMODULE'),
+  ('inspect',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\inspect.py',
+   'PYMODULE'),
+  ('importlib',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\metadata\\__init__.py',
+   'PYMODULE'),
+  ('typing',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\typing.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib.resources.abc',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\resources\\abc.py',
+   'PYMODULE'),
+  ('importlib.resources',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\resources\\__init__.py',
+   'PYMODULE'),
+  ('importlib.resources._legacy',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\resources\\_legacy.py',
+   'PYMODULE'),
+  ('importlib.resources._common',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\resources\\_common.py',
+   'PYMODULE'),
+  ('importlib.resources._adapters',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\resources\\_adapters.py',
+   'PYMODULE'),
+  ('importlib._abc',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\_abc.py',
+   'PYMODULE'),
+  ('contextlib',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\contextlib.py',
+   'PYMODULE'),
+  ('importlib.metadata._itertools',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\metadata\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.metadata._functools',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\metadata\\_functools.py',
+   'PYMODULE'),
+  ('importlib.metadata._collections',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\metadata\\_collections.py',
+   'PYMODULE'),
+  ('importlib.metadata._meta',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\metadata\\_meta.py',
+   'PYMODULE'),
+  ('importlib.metadata._adapters',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\metadata\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.metadata._text',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\metadata\\_text.py',
+   'PYMODULE'),
+  ('email.message',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.policy',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('urllib',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.generator',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('base64',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\base64.py',
+   'PYMODULE'),
+  ('getopt',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\getopt.py',
+   'PYMODULE'),
+  ('email.charset',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.header',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.errors',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.utils',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('ipaddress',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ipaddress.py',
+   'PYMODULE'),
+  ('socket',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\socket.py',
+   'PYMODULE'),
+  ('selectors',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\selectors.py',
+   'PYMODULE'),
+  ('quopri',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\quopri.py',
+   'PYMODULE'),
+  ('zipfile',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\zipfile.py',
+   'PYMODULE'),
+  ('py_compile',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\py_compile.py',
+   'PYMODULE'),
+  ('lzma',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\lzma.py',
+   'PYMODULE'),
+  ('_compression',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_compression.py',
+   'PYMODULE'),
+  ('bz2',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\bz2.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('pathlib',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\pathlib.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\fnmatch.py',
+   'PYMODULE'),
+  ('email',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email.parser',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('csv',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\csv.py',
+   'PYMODULE'),
+  ('importlib.readers',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\readers.py',
+   'PYMODULE'),
+  ('importlib.resources.readers',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\resources\\readers.py',
+   'PYMODULE'),
+  ('importlib.resources._itertools',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\resources\\_itertools.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('token',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\token.py',
+   'PYMODULE'),
+  ('tokenize',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tokenize.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('dis',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\dis.py',
+   'PYMODULE'),
+  ('opcode',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\opcode.py',
+   'PYMODULE'),
+  ('ast',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ast.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('threading',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_threading_local.py',
+   'PYMODULE'),
+  ('string',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\string.py',
+   'PYMODULE'),
+  ('bisect',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\bisect.py',
+   'PYMODULE'),
+  ('shutil',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\shutil.py',
+   'PYMODULE'),
+  ('tarfile',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tarfile.py',
+   'PYMODULE'),
+  ('gzip',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\gzip.py',
+   'PYMODULE'),
+  ('pkg_resources',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\__init__.py',
+   'PYMODULE'),
+  ('packaging.version',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\packaging\\version.py',
+   'PYMODULE'),
+  ('packaging.utils',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\packaging\\utils.py',
+   'PYMODULE'),
+  ('packaging.tags',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\packaging\\tags.py',
+   'PYMODULE'),
+  ('subprocess',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\subprocess.py',
+   'PYMODULE'),
+  ('signal',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\signal.py',
+   'PYMODULE'),
+  ('packaging.specifiers',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('packaging.requirements',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('packaging.metadata',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\packaging\\metadata.py',
+   'PYMODULE'),
+  ('typing_extensions',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\typing_extensions.py',
+   'PYMODULE'),
+  ('packaging.markers',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\packaging\\markers.py',
+   'PYMODULE'),
+  ('packaging._tokenizer',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\packaging\\_tokenizer.py',
+   'PYMODULE'),
+  ('packaging._structures',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('packaging._parser',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\packaging\\_parser.py',
+   'PYMODULE'),
+  ('packaging._musllinux',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('packaging._manylinux',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('packaging._elffile',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\packaging\\_elffile.py',
+   'PYMODULE'),
+  ('packaging',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.zipp',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\zipp.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.typing_extensions',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\typing_extensions.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.platformdirs.windows',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\platformdirs\\windows.py',
+   'PYMODULE'),
+  ('__future__',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\__future__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.platformdirs.version',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\platformdirs\\version.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.platformdirs.unix',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\platformdirs\\unix.py',
+   'PYMODULE'),
+  ('configparser',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\configparser.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.platformdirs.macos',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\platformdirs\\macos.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.platformdirs.api',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\platformdirs\\api.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.platformdirs.android',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\platformdirs\\android.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.platformdirs.__main__',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\platformdirs\\__main__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.platformdirs',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\platformdirs\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.version',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.utils',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.tags',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.specifiers',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.requirements',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.metadata',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\metadata.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.markers',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._tokenizer',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_tokenizer.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._structures',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._parser',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_parser.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._musllinux',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._manylinux',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._elffile',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_elffile.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.more_itertools.recipes',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\more_itertools\\recipes.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.more_itertools.more',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\more_itertools\\more.py',
+   'PYMODULE'),
+  ('queue',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\queue.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.more_itertools',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\more_itertools\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.jaraco.text',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\jaraco\\text\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.jaraco.functools',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\jaraco\\functools.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.jaraco.context',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\jaraco\\context.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.jaraco',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\jaraco\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources.simple',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\simple.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources.readers',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\readers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources.abc',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\abc.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources._legacy',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\_legacy.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources._itertools',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\_itertools.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources._compat',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\_compat.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources._common',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\_common.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources._adapters',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\_adapters.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('sysconfig',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\sysconfig.py',
+   'PYMODULE'),
+  ('_aix_support',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_aix_support.py',
+   'PYMODULE'),
+  ('_bootsubprocess',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_bootsubprocess.py',
+   'PYMODULE'),
+  ('pkg_resources.extern',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pkg_resources\\extern\\__init__.py',
+   'PYMODULE'),
+  ('imp',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\imp.py',
+   'PYMODULE'),
+  ('plistlib',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\plistlib.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('getpass',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\getpass.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\nturl2path.py',
+   'PYMODULE'),
+  ('ftplib',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\netrc.py',
+   'PYMODULE'),
+  ('shlex',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\shlex.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\mimetypes.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('http',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('ssl',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ssl.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('http.client',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\http\\client.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('platform',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\platform.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\pkgutil.py',
+   'PYMODULE'),
+  ('zipimport',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\zipimport.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('hmac',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\hmac.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\resource_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\shared_memory.py',
+   'PYMODULE'),
+  ('secrets',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\secrets.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('runpy',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\runpy.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\stringprep.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_py_abc.py',
+   'PYMODULE'),
+  ('numpy',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core._dtype_ctypes',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\core\\_dtype_ctypes.py',
+   'PYMODULE'),
+  ('numpy._pytesttester',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\_pytesttester.py',
+   'PYMODULE'),
+  ('numpy.testing',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\testing\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing.overrides',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\testing\\overrides.py',
+   'PYMODULE'),
+  ('numpy.lib.recfunctions',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\lib\\recfunctions.py',
+   'PYMODULE'),
+  ('numpy.lib._iotools',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\lib\\_iotools.py',
+   'PYMODULE'),
+  ('numpy.core.numeric',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\core\\numeric.py',
+   'PYMODULE'),
+  ('numpy.core._asarray',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\core\\_asarray.py',
+   'PYMODULE'),
+  ('numpy.core.arrayprint',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\core\\arrayprint.py',
+   'PYMODULE'),
+  ('numpy.core.fromnumeric',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\core\\fromnumeric.py',
+   'PYMODULE'),
+  ('numpy.core._methods',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\core\\_methods.py',
+   'PYMODULE'),
+  ('numpy.lib.stride_tricks',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\lib\\stride_tricks.py',
+   'PYMODULE'),
+  ('numpy.core._exceptions',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\core\\_exceptions.py',
+   'PYMODULE'),
+  ('numpy._utils',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\_utils\\__init__.py',
+   'PYMODULE'),
+  ('numpy._utils._convertions',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\_utils\\_convertions.py',
+   'PYMODULE'),
+  ('numpy.core._ufunc_config',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\core\\_ufunc_config.py',
+   'PYMODULE'),
+  ('numpy.core.numerictypes',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\core\\numerictypes.py',
+   'PYMODULE'),
+  ('numpy.core._dtype',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\core\\_dtype.py',
+   'PYMODULE'),
+  ('numpy.core._type_aliases',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\core\\_type_aliases.py',
+   'PYMODULE'),
+  ('numpy.core._string_helpers',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\core\\_string_helpers.py',
+   'PYMODULE'),
+  ('numpy.core.shape_base',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\core\\shape_base.py',
+   'PYMODULE'),
+  ('numpy.core.multiarray',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\core\\multiarray.py',
+   'PYMODULE'),
+  ('numpy.ma.mrecords',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\ma\\mrecords.py',
+   'PYMODULE'),
+  ('numpy.core.records',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\core\\records.py',
+   'PYMODULE'),
+  ('numpy.core.umath',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\core\\umath.py',
+   'PYMODULE'),
+  ('numpy.core.overrides',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\core\\overrides.py',
+   'PYMODULE'),
+  ('numpy._utils._inspect',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\_utils\\_inspect.py',
+   'PYMODULE'),
+  ('numpy.testing._private.extbuild',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\testing\\_private\\extbuild.py',
+   'PYMODULE'),
+  ('numpy.testing._private.utils',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py',
+   'PYMODULE'),
+  ('doctest',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\doctest.py',
+   'PYMODULE'),
+  ('pdb',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\pdb.py',
+   'PYMODULE'),
+  ('pydoc',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\pydoc.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\webbrowser.py',
+   'PYMODULE'),
+  ('http.server',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\http\\server.py',
+   'PYMODULE'),
+  ('socketserver',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\socketserver.py',
+   'PYMODULE'),
+  ('html',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\html\\entities.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('tty',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tty.py',
+   'PYMODULE'),
+  ('glob',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\glob.py',
+   'PYMODULE'),
+  ('code',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\code.py',
+   'PYMODULE'),
+  ('codeop',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\codeop.py',
+   'PYMODULE'),
+  ('bdb',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\bdb.py',
+   'PYMODULE'),
+  ('cmd',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\cmd.py',
+   'PYMODULE'),
+  ('difflib',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\difflib.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('unittest._log',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\unittest\\_log.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('numpy.testing._private',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\testing\\_private\\__init__.py',
+   'PYMODULE'),
+  ('unittest',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\unittest\\__init__.py',
+   'PYMODULE'),
+  ('unittest.async_case',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\unittest\\async_case.py',
+   'PYMODULE'),
+  ('asyncio',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.unix_events',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\unix_events.py',
+   'PYMODULE'),
+  ('asyncio.log',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\log.py',
+   'PYMODULE'),
+  ('asyncio.windows_events',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\windows_utils.py',
+   'PYMODULE'),
+  ('asyncio.selector_events',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\selector_events.py',
+   'PYMODULE'),
+  ('asyncio.proactor_events',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.threads',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\threads.py',
+   'PYMODULE'),
+  ('asyncio.timeouts',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\timeouts.py',
+   'PYMODULE'),
+  ('asyncio.taskgroups',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\taskgroups.py',
+   'PYMODULE'),
+  ('asyncio.subprocess',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\subprocess.py',
+   'PYMODULE'),
+  ('asyncio.streams',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\streams.py',
+   'PYMODULE'),
+  ('asyncio.queues',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\queues.py',
+   'PYMODULE'),
+  ('asyncio.runners',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\runners.py',
+   'PYMODULE'),
+  ('asyncio.base_events',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\base_events.py',
+   'PYMODULE'),
+  ('concurrent.futures',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\concurrent\\futures\\thread.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\concurrent\\futures\\process.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\concurrent\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.trsock',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\trsock.py',
+   'PYMODULE'),
+  ('asyncio.staggered',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\staggered.py',
+   'PYMODULE'),
+  ('asyncio.tasks',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\tasks.py',
+   'PYMODULE'),
+  ('asyncio.locks',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\locks.py',
+   'PYMODULE'),
+  ('asyncio.base_tasks',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.mixins',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\mixins.py',
+   'PYMODULE'),
+  ('asyncio.sslproto',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\sslproto.py',
+   'PYMODULE'),
+  ('asyncio.transports',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\transports.py',
+   'PYMODULE'),
+  ('asyncio.protocols',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\protocols.py',
+   'PYMODULE'),
+  ('asyncio.futures',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\futures.py',
+   'PYMODULE'),
+  ('asyncio.base_futures',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\base_futures.py',
+   'PYMODULE'),
+  ('asyncio.exceptions',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\exceptions.py',
+   'PYMODULE'),
+  ('asyncio.events',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\events.py',
+   'PYMODULE'),
+  ('asyncio.format_helpers',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\format_helpers.py',
+   'PYMODULE'),
+  ('asyncio.coroutines',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\coroutines.py',
+   'PYMODULE'),
+  ('asyncio.constants',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\constants.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('numpy.matrixlib',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\matrixlib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.matrixlib.defmatrix',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\matrixlib\\defmatrix.py',
+   'PYMODULE'),
+  ('numpy.ma',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\ma\\__init__.py',
+   'PYMODULE'),
+  ('numpy.ma.extras',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\ma\\extras.py',
+   'PYMODULE'),
+  ('numpy.lib.index_tricks',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\lib\\index_tricks.py',
+   'PYMODULE'),
+  ('numpy.lib.function_base',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\lib\\function_base.py',
+   'PYMODULE'),
+  ('numpy.lib.histograms',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\lib\\histograms.py',
+   'PYMODULE'),
+  ('numpy.lib.twodim_base',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\lib\\twodim_base.py',
+   'PYMODULE'),
+  ('numpy.core.function_base',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\core\\function_base.py',
+   'PYMODULE'),
+  ('numpy.ma.core',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\ma\\core.py',
+   'PYMODULE'),
+  ('numpy.ctypeslib',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\ctypeslib.py',
+   'PYMODULE'),
+  ('numpy.core._internal',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\core\\_internal.py',
+   'PYMODULE'),
+  ('numpy.random',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\random\\__init__.py',
+   'PYMODULE'),
+  ('numpy.random._pickle',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\random\\_pickle.py',
+   'PYMODULE'),
+  ('numpy.polynomial',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\polynomial\\__init__.py',
+   'PYMODULE'),
+  ('numpy.polynomial._polybase',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\polynomial\\_polybase.py',
+   'PYMODULE'),
+  ('numpy.polynomial.laguerre',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\polynomial\\laguerre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite_e',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\polynomial\\hermite_e.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\polynomial\\hermite.py',
+   'PYMODULE'),
+  ('numpy.polynomial.legendre',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\polynomial\\legendre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.chebyshev',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\polynomial\\chebyshev.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polynomial',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\polynomial\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polyutils',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\polynomial\\polyutils.py',
+   'PYMODULE'),
+  ('numpy.fft',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\fft\\__init__.py',
+   'PYMODULE'),
+  ('numpy.fft.helper',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\fft\\helper.py',
+   'PYMODULE'),
+  ('numpy.fft._pocketfft',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\fft\\_pocketfft.py',
+   'PYMODULE'),
+  ('numpy.linalg',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\linalg\\__init__.py',
+   'PYMODULE'),
+  ('numpy.linalg.linalg',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\linalg\\linalg.py',
+   'PYMODULE'),
+  ('numpy._typing',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\_typing\\__init__.py',
+   'PYMODULE'),
+  ('numpy._typing._array_like',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\_typing\\_array_like.py',
+   'PYMODULE'),
+  ('numpy._typing._dtype_like',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\_typing\\_dtype_like.py',
+   'PYMODULE'),
+  ('numpy._typing._shape',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\_typing\\_shape.py',
+   'PYMODULE'),
+  ('numpy._typing._scalars',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\_typing\\_scalars.py',
+   'PYMODULE'),
+  ('numpy._typing._char_codes',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\_typing\\_char_codes.py',
+   'PYMODULE'),
+  ('numpy._typing._nbit',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\_typing\\_nbit.py',
+   'PYMODULE'),
+  ('numpy._typing._nested_sequence',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\_typing\\_nested_sequence.py',
+   'PYMODULE'),
+  ('numpy.lib',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\lib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.lib._version',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\lib\\_version.py',
+   'PYMODULE'),
+  ('numpy.lib.arraypad',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\lib\\arraypad.py',
+   'PYMODULE'),
+  ('numpy.lib.arrayterator',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\lib\\arrayterator.py',
+   'PYMODULE'),
+  ('numpy.lib.npyio',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\lib\\npyio.py',
+   'PYMODULE'),
+  ('numpy.lib._datasource',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\lib\\_datasource.py',
+   'PYMODULE'),
+  ('numpy.lib.format',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\lib\\format.py',
+   'PYMODULE'),
+  ('numpy.lib.arraysetops',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\lib\\arraysetops.py',
+   'PYMODULE'),
+  ('numpy.lib.utils',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\lib\\utils.py',
+   'PYMODULE'),
+  ('threadpoolctl',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\threadpoolctl.py',
+   'PYMODULE'),
+  ('json',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('ctypes.util',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ctypes\\util.py',
+   'PYMODULE'),
+  ('ctypes._aix',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ctypes\\_aix.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ctypes\\macholib\\framework.py',
+   'PYMODULE'),
+  ('numpy.lib.polynomial',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\lib\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.lib.ufunclike',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\lib\\ufunclike.py',
+   'PYMODULE'),
+  ('numpy.lib.shape_base',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\lib\\shape_base.py',
+   'PYMODULE'),
+  ('numpy.lib.nanfunctions',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\lib\\nanfunctions.py',
+   'PYMODULE'),
+  ('numpy.lib.type_check',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\lib\\type_check.py',
+   'PYMODULE'),
+  ('numpy.core.getlimits',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\core\\getlimits.py',
+   'PYMODULE'),
+  ('numpy.core._machar',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\core\\_machar.py',
+   'PYMODULE'),
+  ('numpy.lib.scimath',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\lib\\scimath.py',
+   'PYMODULE'),
+  ('numpy.lib.mixins',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\lib\\mixins.py',
+   'PYMODULE'),
+  ('numpy.dtypes',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\dtypes.py',
+   'PYMODULE'),
+  ('numpy.compat',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\compat\\__init__.py',
+   'PYMODULE'),
+  ('numpy.compat.py3k',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\compat\\py3k.py',
+   'PYMODULE'),
+  ('numpy.core',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\core\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core._add_newdocs_scalars',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\core\\_add_newdocs_scalars.py',
+   'PYMODULE'),
+  ('numpy.core._add_newdocs',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\core\\_add_newdocs.py',
+   'PYMODULE'),
+  ('numpy.core.einsumfunc',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\core\\einsumfunc.py',
+   'PYMODULE'),
+  ('numpy.core.memmap',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\core\\memmap.py',
+   'PYMODULE'),
+  ('numpy.core.defchararray',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\core\\defchararray.py',
+   'PYMODULE'),
+  ('numpy.__config__',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\__config__.py',
+   'PYMODULE'),
+  ('numpy.array_api',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\array_api\\__init__.py',
+   'PYMODULE'),
+  ('numpy.array_api._utility_functions',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\array_api\\_utility_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._array_object',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\array_api\\_array_object.py',
+   'PYMODULE'),
+  ('numpy.typing',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\typing\\__init__.py',
+   'PYMODULE'),
+  ('numpy._typing._add_docstring',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\_typing\\_add_docstring.py',
+   'PYMODULE'),
+  ('numpy.array_api._typing',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\array_api\\_typing.py',
+   'PYMODULE'),
+  ('numpy.array_api._statistical_functions',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\array_api\\_statistical_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._sorting_functions',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\array_api\\_sorting_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._set_functions',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\array_api\\_set_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._searching_functions',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\array_api\\_searching_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._manipulation_functions',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\array_api\\_manipulation_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api.linalg',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\array_api\\linalg.py',
+   'PYMODULE'),
+  ('numpy.array_api._indexing_functions',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\array_api\\_indexing_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._elementwise_functions',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\array_api\\_elementwise_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._dtypes',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\array_api\\_dtypes.py',
+   'PYMODULE'),
+  ('numpy.array_api._data_type_functions',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\array_api\\_data_type_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._creation_functions',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\array_api\\_creation_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._constants',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\array_api\\_constants.py',
+   'PYMODULE'),
+  ('numpy._distributor_init',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\_distributor_init.py',
+   'PYMODULE'),
+  ('numpy.version',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\version.py',
+   'PYMODULE'),
+  ('numpy.exceptions',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\exceptions.py',
+   'PYMODULE'),
+  ('numpy._globals',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\_globals.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('calculations',
+   'G:\\solyanka documentov\\Projects\\Python\\diplomas\\calculations.py',
+   'PYMODULE'),
+  ('matplotlib.pyplot',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\pyplot.py',
+   'PYMODULE'),
+  ('matplotlib.patheffects',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\patheffects.py',
+   'PYMODULE'),
+  ('matplotlib.path',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\path.py',
+   'PYMODULE'),
+  ('matplotlib.hatch',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\hatch.py',
+   'PYMODULE'),
+  ('matplotlib.bezier',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\bezier.py',
+   'PYMODULE'),
+  ('matplotlib.backends',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\backends\\__init__.py',
+   'PYMODULE'),
+  ('matplotlib.backends.backend_qt5agg',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\backends\\backend_qt5agg.py',
+   'PYMODULE'),
+  ('matplotlib.backends.backend_qtagg',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\backends\\backend_qtagg.py',
+   'PYMODULE'),
+  ('matplotlib.backends.backend_qt',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\backends\\backend_qt.py',
+   'PYMODULE'),
+  ('matplotlib.backends.qt_editor.figureoptions',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\backends\\qt_editor\\figureoptions.py',
+   'PYMODULE'),
+  ('matplotlib.dates',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\dates.py',
+   'PYMODULE'),
+  ('matplotlib.units',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\units.py',
+   'PYMODULE'),
+  ('dateutil.tz',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\dateutil\\tz\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.tz.tz',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\dateutil\\tz\\tz.py',
+   'PYMODULE'),
+  ('dateutil.zoneinfo',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\dateutil\\zoneinfo\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.parser._parser',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\dateutil\\parser\\_parser.py',
+   'PYMODULE'),
+  ('dateutil.tz.win',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\dateutil\\tz\\win.py',
+   'PYMODULE'),
+  ('dateutil.tz._factories',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\dateutil\\tz\\_factories.py',
+   'PYMODULE'),
+  ('dateutil.tz._common',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\dateutil\\tz\\_common.py',
+   'PYMODULE'),
+  ('six',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\six.py',
+   'PYMODULE'),
+  ('dateutil',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\dateutil\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.easter',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\dateutil\\easter.py',
+   'PYMODULE'),
+  ('dateutil._version',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\dateutil\\_version.py',
+   'PYMODULE'),
+  ('dateutil.parser',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\dateutil\\parser\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.parser.isoparser',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\dateutil\\parser\\isoparser.py',
+   'PYMODULE'),
+  ('dateutil.relativedelta',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\dateutil\\relativedelta.py',
+   'PYMODULE'),
+  ('dateutil._common',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\dateutil\\_common.py',
+   'PYMODULE'),
+  ('dateutil.rrule',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\dateutil\\rrule.py',
+   'PYMODULE'),
+  ('matplotlib.backends.qt_editor._formlayout',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\backends\\qt_editor\\_formlayout.py',
+   'PYMODULE'),
+  ('matplotlib.backends.qt_editor',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\backends\\qt_editor\\__init__.py',
+   'PYMODULE'),
+  ('matplotlib.markers',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\markers.py',
+   'PYMODULE'),
+  ('matplotlib._enums',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\_enums.py',
+   'PYMODULE'),
+  ('matplotlib.backend_tools',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\backend_tools.py',
+   'PYMODULE'),
+  ('uuid',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\uuid.py',
+   'PYMODULE'),
+  ('matplotlib.backends.qt_compat',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\backends\\qt_compat.py',
+   'PYMODULE'),
+  ('matplotlib.backends.backend_webagg',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\backends\\backend_webagg.py',
+   'PYMODULE'),
+  ('matplotlib.backends.backend_webagg_core',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\backends\\backend_webagg_core.py',
+   'PYMODULE'),
+  ('PIL',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\__init__.py',
+   'PYMODULE'),
+  ('PIL.ImageTk',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\ImageTk.py',
+   'PYMODULE'),
+  ('PIL.PdfParser',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\PdfParser.py',
+   'PYMODULE'),
+  ('PIL.Jpeg2KImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
+   'PYMODULE'),
+  ('PIL._binary',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\_binary.py',
+   'PYMODULE'),
+  ('PIL.features',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\features.py',
+   'PYMODULE'),
+  ('PIL.ImageShow',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\ImageShow.py',
+   'PYMODULE'),
+  ('PIL.ImageQt',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\ImageQt.py',
+   'PYMODULE'),
+  ('PIL._util',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\_util.py',
+   'PYMODULE'),
+  ('PIL.ImageFilter',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\ImageFilter.py',
+   'PYMODULE'),
+  ('PIL.ImageCms',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\ImageCms.py',
+   'PYMODULE'),
+  ('PIL.ImageWin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\ImageWin.py',
+   'PYMODULE'),
+  ('PIL.PyAccess',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\PyAccess.py',
+   'PYMODULE'),
+  ('PIL._deprecate',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\_deprecate.py',
+   'PYMODULE'),
+  ('PIL.PngImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\PngImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PpmImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\PpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\JpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpoImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\MpoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegPresets',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\JpegPresets.py',
+   'PYMODULE'),
+  ('PIL.TiffImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\TiffImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageOps',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\ImageOps.py',
+   'PYMODULE'),
+  ('PIL.GifImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\GifImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageSequence',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\ImageSequence.py',
+   'PYMODULE'),
+  ('PIL.ImageChops',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\ImageChops.py',
+   'PYMODULE'),
+  ('PIL.BmpImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\BmpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImagePalette',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\ImagePalette.py',
+   'PYMODULE'),
+  ('PIL.PaletteFile',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\PaletteFile.py',
+   'PYMODULE'),
+  ('PIL.ImageColor',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\ImageColor.py',
+   'PYMODULE'),
+  ('colorsys',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\colorsys.py',
+   'PYMODULE'),
+  ('PIL.GimpPaletteFile',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\GimpPaletteFile.py',
+   'PYMODULE'),
+  ('PIL.GimpGradientFile',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\GimpGradientFile.py',
+   'PYMODULE'),
+  ('PIL.ImageFile',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\ImageFile.py',
+   'PYMODULE'),
+  ('PIL.TiffTags',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\TiffTags.py',
+   'PYMODULE'),
+  ('PIL.ImageMode',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\ImageMode.py',
+   'PYMODULE'),
+  ('PIL.ExifTags',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\ExifTags.py',
+   'PYMODULE'),
+  ('PIL._version',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\_version.py',
+   'PYMODULE'),
+  ('matplotlib.backends.backend_agg',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\backends\\backend_agg.py',
+   'PYMODULE'),
+  ('matplotlib.mathtext',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mathtext.py',
+   'PYMODULE'),
+  ('matplotlib._mathtext',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\_mathtext.py',
+   'PYMODULE'),
+  ('matplotlib._mathtext_data',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\_mathtext_data.py',
+   'PYMODULE'),
+  ('pyparsing',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pyparsing\\__init__.py',
+   'PYMODULE'),
+  ('pyparsing.common',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pyparsing\\common.py',
+   'PYMODULE'),
+  ('pyparsing.testing',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pyparsing\\testing.py',
+   'PYMODULE'),
+  ('pyparsing.unicode',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pyparsing\\unicode.py',
+   'PYMODULE'),
+  ('pyparsing.helpers',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pyparsing\\helpers.py',
+   'PYMODULE'),
+  ('pyparsing.results',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pyparsing\\results.py',
+   'PYMODULE'),
+  ('pyparsing.core',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pyparsing\\core.py',
+   'PYMODULE'),
+  ('pyparsing.diagram',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pyparsing\\diagram\\__init__.py',
+   'PYMODULE'),
+  ('jinja2',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\jinja2\\__init__.py',
+   'PYMODULE'),
+  ('jinja2.ext',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\jinja2\\ext.py',
+   'PYMODULE'),
+  ('jinja2.parser',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\jinja2\\parser.py',
+   'PYMODULE'),
+  ('jinja2.lexer',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\jinja2\\lexer.py',
+   'PYMODULE'),
+  ('jinja2._identifier',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\jinja2\\_identifier.py',
+   'PYMODULE'),
+  ('jinja2.defaults',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\jinja2\\defaults.py',
+   'PYMODULE'),
+  ('jinja2.tests',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\jinja2\\tests.py',
+   'PYMODULE'),
+  ('jinja2.filters',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\jinja2\\filters.py',
+   'PYMODULE'),
+  ('jinja2.sandbox',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\jinja2\\sandbox.py',
+   'PYMODULE'),
+  ('jinja2.async_utils',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\jinja2\\async_utils.py',
+   'PYMODULE'),
+  ('markupsafe',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\markupsafe\\__init__.py',
+   'PYMODULE'),
+  ('markupsafe._native',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\markupsafe\\_native.py',
+   'PYMODULE'),
+  ('jinja2.utils',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\jinja2\\utils.py',
+   'PYMODULE'),
+  ('jinja2.constants',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\jinja2\\constants.py',
+   'PYMODULE'),
+  ('jinja2.runtime',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\jinja2\\runtime.py',
+   'PYMODULE'),
+  ('jinja2.loaders',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\jinja2\\loaders.py',
+   'PYMODULE'),
+  ('jinja2.exceptions',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\jinja2\\exceptions.py',
+   'PYMODULE'),
+  ('jinja2.environment',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\jinja2\\environment.py',
+   'PYMODULE'),
+  ('jinja2.debug',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\jinja2\\debug.py',
+   'PYMODULE'),
+  ('jinja2.compiler',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\jinja2\\compiler.py',
+   'PYMODULE'),
+  ('jinja2.visitor',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\jinja2\\visitor.py',
+   'PYMODULE'),
+  ('jinja2.optimizer',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\jinja2\\optimizer.py',
+   'PYMODULE'),
+  ('jinja2.idtracking',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\jinja2\\idtracking.py',
+   'PYMODULE'),
+  ('jinja2.bccache',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\jinja2\\bccache.py',
+   'PYMODULE'),
+  ('jinja2.nodes',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\jinja2\\nodes.py',
+   'PYMODULE'),
+  ('pyparsing.actions',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pyparsing\\actions.py',
+   'PYMODULE'),
+  ('pyparsing.exceptions',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pyparsing\\exceptions.py',
+   'PYMODULE'),
+  ('pyparsing.util',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\pyparsing\\util.py',
+   'PYMODULE'),
+  ('matplotlib.font_manager',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\font_manager.py',
+   'PYMODULE'),
+  ('matplotlib._fontconfig_pattern',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\_fontconfig_pattern.py',
+   'PYMODULE'),
+  ('matplotlib._afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\_afm.py',
+   'PYMODULE'),
+  ('matplotlib.ticker',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\ticker.py',
+   'PYMODULE'),
+  ('matplotlib.text',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\text.py',
+   'PYMODULE'),
+  ('matplotlib.offsetbox',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\offsetbox.py',
+   'PYMODULE'),
+  ('matplotlib.textpath',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\textpath.py',
+   'PYMODULE'),
+  ('matplotlib.texmanager',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\texmanager.py',
+   'PYMODULE'),
+  ('matplotlib.dviread',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\dviread.py',
+   'PYMODULE'),
+  ('matplotlib._text_helpers',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\_text_helpers.py',
+   'PYMODULE'),
+  ('matplotlib.lines',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\lines.py',
+   'PYMODULE'),
+  ('matplotlib.widgets',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\widgets.py',
+   'PYMODULE'),
+  ('matplotlib.typing',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\typing.py',
+   'PYMODULE'),
+  ('matplotlib.transforms',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\transforms.py',
+   'PYMODULE'),
+  ('matplotlib.quiver',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\quiver.py',
+   'PYMODULE'),
+  ('matplotlib.patches',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\patches.py',
+   'PYMODULE'),
+  ('matplotlib.legend',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\legend.py',
+   'PYMODULE'),
+  ('matplotlib.legend_handler',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\legend_handler.py',
+   'PYMODULE'),
+  ('matplotlib.container',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\container.py',
+   'PYMODULE'),
+  ('matplotlib.collections',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\collections.py',
+   'PYMODULE'),
+  ('matplotlib.contour',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\contour.py',
+   'PYMODULE'),
+  ('contourpy',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\contourpy\\__init__.py',
+   'PYMODULE'),
+  ('contourpy.enum_util',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\contourpy\\enum_util.py',
+   'PYMODULE'),
+  ('contourpy.dechunk',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\contourpy\\dechunk.py',
+   'PYMODULE'),
+  ('contourpy.typecheck',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\contourpy\\typecheck.py',
+   'PYMODULE'),
+  ('contourpy.types',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\contourpy\\types.py',
+   'PYMODULE'),
+  ('contourpy.array',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\contourpy\\array.py',
+   'PYMODULE'),
+  ('contourpy.convert',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\contourpy\\convert.py',
+   'PYMODULE'),
+  ('contourpy.chunk',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\contourpy\\chunk.py',
+   'PYMODULE'),
+  ('contourpy._version',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\contourpy\\_version.py',
+   'PYMODULE'),
+  ('matplotlib.axes._base',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\axes\\_base.py',
+   'PYMODULE'),
+  ('matplotlib.table',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\table.py',
+   'PYMODULE'),
+  ('matplotlib.spines',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\spines.py',
+   'PYMODULE'),
+  ('matplotlib.axis',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\axis.py',
+   'PYMODULE'),
+  ('PIL.Image',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\Image.py',
+   'PYMODULE'),
+  ('PIL.XpmImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\XpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XbmImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\XbmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XVThumbImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WmfImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\WmfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WebPImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\WebPImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TgaImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\TgaImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SunImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\SunImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SpiderImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\SpiderImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SgiImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\SgiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.QoiImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\QoiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PsdImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\PsdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PixarImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\PixarImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\PdfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcxImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\PcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcdImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\PcdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PalmImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\PalmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MspImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\MspImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpegImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\MpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MicImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\MicImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.McIdasImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\McIdasImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IptcImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\IptcImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImtImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\ImtImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\ImImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcoImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\IcoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcnsImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\IcnsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Hdf5StubImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GribStubImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\GribStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GbrImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\GbrImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FtexImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\FtexImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FpxImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\FpxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FliImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\FliImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FitsImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\FitsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.EpsImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\EpsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DdsImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\DdsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DcxImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\DcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.CurImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\CurImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BufrStubImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\BufrStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BlpImagePlugin',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\BlpImagePlugin.py',
+   'PYMODULE'),
+  ('matplotlib.colors',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\colors.py',
+   'PYMODULE'),
+  ('matplotlib._color_data',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\_color_data.py',
+   'PYMODULE'),
+  ('matplotlib._cm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\_cm.py',
+   'PYMODULE'),
+  ('matplotlib.scale',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\scale.py',
+   'PYMODULE'),
+  ('matplotlib.mlab',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mlab.py',
+   'PYMODULE'),
+  ('matplotlib.projections',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\projections\\__init__.py',
+   'PYMODULE'),
+  ('mpl_toolkits.mplot3d',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\mpl_toolkits\\mplot3d\\__init__.py',
+   'PYMODULE'),
+  ('mpl_toolkits',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\mpl_toolkits\\__init__.py',
+   'PYMODULE'),
+  ('mpl_toolkits.mplot3d.axes3d',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\mpl_toolkits\\mplot3d\\axes3d.py',
+   'PYMODULE'),
+  ('matplotlib.tri._triangulation',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\tri\\_triangulation.py',
+   'PYMODULE'),
+  ('matplotlib.tri',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\tri\\__init__.py',
+   'PYMODULE'),
+  ('matplotlib.tri._tritools',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\tri\\_tritools.py',
+   'PYMODULE'),
+  ('matplotlib.tri._trirefine',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\tri\\_trirefine.py',
+   'PYMODULE'),
+  ('matplotlib.tri._triplot',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\tri\\_triplot.py',
+   'PYMODULE'),
+  ('matplotlib.tri._tripcolor',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\tri\\_tripcolor.py',
+   'PYMODULE'),
+  ('matplotlib.tri._triinterpolate',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\tri\\_triinterpolate.py',
+   'PYMODULE'),
+  ('matplotlib.tri._tricontour',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\tri\\_tricontour.py',
+   'PYMODULE'),
+  ('matplotlib.tri._trifinder',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\tri\\_trifinder.py',
+   'PYMODULE'),
+  ('mpl_toolkits.mplot3d.axis3d',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\mpl_toolkits\\mplot3d\\axis3d.py',
+   'PYMODULE'),
+  ('mpl_toolkits.mplot3d.art3d',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\mpl_toolkits\\mplot3d\\art3d.py',
+   'PYMODULE'),
+  ('mpl_toolkits.mplot3d.proj3d',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\mpl_toolkits\\mplot3d\\proj3d.py',
+   'PYMODULE'),
+  ('matplotlib.projections.polar',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\projections\\polar.py',
+   'PYMODULE'),
+  ('matplotlib.projections.geo',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\projections\\geo.py',
+   'PYMODULE'),
+  ('matplotlib.axes',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\axes\\__init__.py',
+   'PYMODULE'),
+  ('matplotlib.axes._axes',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\axes\\_axes.py',
+   'PYMODULE'),
+  ('matplotlib.axes._secondary_axes',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\axes\\_secondary_axes.py',
+   'PYMODULE'),
+  ('matplotlib.streamplot',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\streamplot.py',
+   'PYMODULE'),
+  ('matplotlib.stackplot',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\stackplot.py',
+   'PYMODULE'),
+  ('matplotlib.category',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\category.py',
+   'PYMODULE'),
+  ('matplotlib.artist',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\artist.py',
+   'PYMODULE'),
+  ('matplotlib.rcsetup',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\rcsetup.py',
+   'PYMODULE'),
+  ('matplotlib.gridspec',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\gridspec.py',
+   'PYMODULE'),
+  ('matplotlib._tight_layout',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\_tight_layout.py',
+   'PYMODULE'),
+  ('matplotlib.figure',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\figure.py',
+   'PYMODULE'),
+  ('matplotlib.layout_engine',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\layout_engine.py',
+   'PYMODULE'),
+  ('matplotlib._constrained_layout',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\_constrained_layout.py',
+   'PYMODULE'),
+  ('matplotlib._layoutgrid',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\_layoutgrid.py',
+   'PYMODULE'),
+  ('kiwisolver',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\kiwisolver\\__init__.py',
+   'PYMODULE'),
+  ('kiwisolver.exceptions',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\kiwisolver\\exceptions.py',
+   'PYMODULE'),
+  ('matplotlib._blocking_input',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\_blocking_input.py',
+   'PYMODULE'),
+  ('matplotlib.backend_bases',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\backend_bases.py',
+   'PYMODULE'),
+  ('matplotlib.backend_managers',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\backend_managers.py',
+   'PYMODULE'),
+  ('matplotlib._tight_bbox',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\_tight_bbox.py',
+   'PYMODULE'),
+  ('matplotlib._docstring',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\_docstring.py',
+   'PYMODULE'),
+  ('matplotlib.cbook',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\cbook.py',
+   'PYMODULE'),
+  ('matplotlib._pylab_helpers',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\_pylab_helpers.py',
+   'PYMODULE'),
+  ('matplotlib.style',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\style\\__init__.py',
+   'PYMODULE'),
+  ('matplotlib.style.core',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\style\\core.py',
+   'PYMODULE'),
+  ('matplotlib.cm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\cm.py',
+   'PYMODULE'),
+  ('matplotlib._cm_listed',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\_cm_listed.py',
+   'PYMODULE'),
+  ('matplotlib._api',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\_api\\__init__.py',
+   'PYMODULE'),
+  ('matplotlib._api.deprecation',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\_api\\deprecation.py',
+   'PYMODULE'),
+  ('matplotlib.image',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\image.py',
+   'PYMODULE'),
+  ('matplotlib.colorbar',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\colorbar.py',
+   'PYMODULE'),
+  ('matplotlib',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\__init__.py',
+   'PYMODULE'),
+  ('certifi',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\certifi\\__init__.py',
+   'PYMODULE'),
+  ('certifi.core',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\certifi\\core.py',
+   'PYMODULE'),
+  ('matplotlib._version',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\_version.py',
+   'PYMODULE'),
+  ('cycler',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\cycler\\__init__.py',
+   'PYMODULE'),
+  ('PyQt5.uic',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\uic\\__init__.py',
+   'PYMODULE'),
+  ('PyQt5.uic.objcreator',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\uic\\objcreator.py',
+   'PYMODULE'),
+  ('PyQt5.uic.exceptions',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\uic\\exceptions.py',
+   'PYMODULE'),
+  ('PyQt5.uic.Loader.loader',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\uic\\Loader\\loader.py',
+   'PYMODULE'),
+  ('PyQt5.uic.Loader',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\uic\\Loader\\__init__.py',
+   'PYMODULE'),
+  ('PyQt5.uic.Loader.qobjectcreator',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\uic\\Loader\\qobjectcreator.py',
+   'PYMODULE'),
+  ('PyQt5.uic.uiparser',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\uic\\uiparser.py',
+   'PYMODULE'),
+  ('PyQt5.uic.properties',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\uic\\properties.py',
+   'PYMODULE'),
+  ('PyQt5.uic.port_v3.ascii_upper',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\uic\\port_v3\\ascii_upper.py',
+   'PYMODULE'),
+  ('PyQt5.uic.port_v3',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\uic\\port_v3\\__init__.py',
+   'PYMODULE'),
+  ('PyQt5.uic.icon_cache',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\uic\\icon_cache.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\etree\\cElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('PyQt5.uic.port_v3.string_io',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\uic\\port_v3\\string_io.py',
+   'PYMODULE'),
+  ('PyQt5.uic.Compiler.compiler',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\uic\\Compiler\\compiler.py',
+   'PYMODULE'),
+  ('PyQt5.uic.Compiler.qobjectcreator',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\uic\\Compiler\\qobjectcreator.py',
+   'PYMODULE'),
+  ('PyQt5.uic.port_v3.as_string',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\uic\\port_v3\\as_string.py',
+   'PYMODULE'),
+  ('PyQt5.uic.Compiler.qtproxies',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\uic\\Compiler\\qtproxies.py',
+   'PYMODULE'),
+  ('PyQt5.uic.port_v3.proxy_base',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\uic\\port_v3\\proxy_base.py',
+   'PYMODULE'),
+  ('PyQt5.uic.Compiler.proxy_metaclass',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\uic\\Compiler\\proxy_metaclass.py',
+   'PYMODULE'),
+  ('PyQt5.uic.Compiler.misc',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\uic\\Compiler\\misc.py',
+   'PYMODULE'),
+  ('PyQt5.uic.Compiler.indenter',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\uic\\Compiler\\indenter.py',
+   'PYMODULE'),
+  ('PyQt5.uic.Compiler',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\uic\\Compiler\\__init__.py',
+   'PYMODULE'),
+  ('PyQt5',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\__init__.py',
+   'PYMODULE')],
+ [('python311.dll',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\python311.dll',
+   'BINARY'),
+  ('matplotlib.libs\\msvcp140-8fe972c21762050da1adf4b84a93423e.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib.libs\\msvcp140-8fe972c21762050da1adf4b84a93423e.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\styles\\qwindowsvistastyle.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\styles\\qwindowsvistastyle.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platforms\\qoffscreen.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qoffscreen.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qico.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qico.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qwbmp.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qwbmp.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qwebp.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qwebp.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platforms\\qwebgl.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qwebgl.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platforms\\qminimal.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qminimal.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qjpeg.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qjpeg.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qsvg.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qsvg.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qtiff.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qtiff.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platforms\\qwindows.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qwindows.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\generic\\qtuiotouchplugin.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\generic\\qtuiotouchplugin.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qicns.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qicns.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platformthemes\\qxdgdesktopportal.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platformthemes\\qxdgdesktopportal.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qgif.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qgif.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qtga.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qtga.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\iconengines\\qsvgicon.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\iconengines\\qsvgicon.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\opengl32sw.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\opengl32sw.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\d3dcompiler_47.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\d3dcompiler_47.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\libEGL.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\libEGL.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\libGLESv2.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\libGLESv2.dll',
+   'BINARY'),
+  ('_ctypes.pyd',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_decimal.pyd',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('select.pyd',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('numpy\\core\\_multiarray_tests.cp311-win_amd64.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\core\\_multiarray_tests.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\core\\_multiarray_umath.cp311-win_amd64.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\core\\_multiarray_umath.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\linalg\\_umath_linalg.cp311-win_amd64.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\linalg\\_umath_linalg.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('_overlapped.pyd',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_asyncio.pyd',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\mtrand.cp311-win_amd64.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\random\\mtrand.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_sfc64.cp311-win_amd64.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\random\\_sfc64.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_philox.cp311-win_amd64.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\random\\_philox.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_pcg64.cp311-win_amd64.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\random\\_pcg64.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_mt19937.cp311-win_amd64.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\random\\_mt19937.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\bit_generator.cp311-win_amd64.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\random\\bit_generator.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_generator.cp311-win_amd64.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\random\\_generator.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_bounded_integers.cp311-win_amd64.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\random\\_bounded_integers.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_common.cp311-win_amd64.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\random\\_common.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\fft\\_pocketfft_internal.cp311-win_amd64.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy\\fft\\_pocketfft_internal.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('matplotlib\\_path.cp311-win_amd64.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\_path.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('_uuid.pyd',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_uuid.pyd',
+   'EXTENSION'),
+  ('PyQt5\\QtCore.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\QtCore.pyd',
+   'EXTENSION'),
+  ('PIL\\_webp.cp311-win_amd64.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\_webp.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingtk.cp311-win_amd64.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\_imagingtk.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingcms.cp311-win_amd64.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\_imagingcms.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imaging.cp311-win_amd64.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PIL\\_imaging.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('matplotlib\\backends\\_backend_agg.cp311-win_amd64.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\backends\\_backend_agg.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('markupsafe\\_speedups.cp311-win_amd64.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\markupsafe\\_speedups.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('matplotlib\\ft2font.cp311-win_amd64.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\ft2font.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('contourpy\\_contourpy.cp311-win_amd64.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\contourpy\\_contourpy.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('matplotlib\\_tri.cp311-win_amd64.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\_tri.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('matplotlib\\_qhull.cp311-win_amd64.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\_qhull.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('kiwisolver\\_cext.cp311-win_amd64.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\kiwisolver\\_cext.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('matplotlib\\_c_internal_utils.cp311-win_amd64.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\_c_internal_utils.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('matplotlib\\_image.cp311-win_amd64.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\_image.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('PyQt5\\QtWidgets.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\QtWidgets.pyd',
+   'EXTENSION'),
+  ('PyQt5\\QtGui.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\QtGui.pyd',
+   'EXTENSION'),
+  ('_elementtree.pyd',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_elementtree.pyd',
+   'EXTENSION'),
+  ('PyQt5\\sip.cp311-win_amd64.pyd',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\sip.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-environment-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-environment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-conio-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-string-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('api-ms-win-crt-utility-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-utility-l1-1-0.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Gui.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Gui.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Widgets.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Widgets.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Core.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Core.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Network.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Network.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\MSVCP140.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\MSVCP140.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Quick.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Quick.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5WebSockets.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5WebSockets.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Svg.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Svg.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5DBus.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5DBus.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\VCRUNTIME140.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\VCRUNTIME140_1.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('libffi-8.dll',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\libffi-8.dll',
+   'BINARY'),
+  ('libcrypto-3.dll',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\libcrypto-3.dll',
+   'BINARY'),
+  ('libssl-3.dll',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\libssl-3.dll',
+   'BINARY'),
+  ('numpy.libs\\libopenblas64__v0.3.23-293-gc2f4bdbb-gcc_10_3_0-2bde3a66a51006b2b53eb373ff767a3f.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\numpy.libs\\libopenblas64__v0.3.23-293-gc2f4bdbb-gcc_10_3_0-2bde3a66a51006b2b53eb373ff767a3f.dll',
+   'BINARY'),
+  ('python3.dll',
+   'C:\\Users\\litov\\AppData\\Local\\Programs\\Python\\Python311\\python3.dll',
+   'BINARY'),
+  ('ucrtbase.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\ucrtbase.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\MSVCP140_1.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\MSVCP140_1.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Qml.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Qml.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5QmlModels.dll',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5QmlModels.dll',
+   'BINARY'),
+  ('api-ms-win-crt-private-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-private-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-processthreads-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY')],
+ [],
+ [],
+ [('base_library.zip',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\diplomas\\build\\app\\base_library.zip',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_fr.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_fr.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_sl.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_sl.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_zh_TW.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_zh_TW.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_gl.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_gl.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_da.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_da.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_en.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_en.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_it.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_it.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ja.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ja.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_gd.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_gd.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_de.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_de.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_zh_TW.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_zh_TW.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_ja.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ja.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_de.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_de.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_lv.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_lv.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_hu.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_hu.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_pt.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_pt.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_cs.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_cs.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_en.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_en.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_sk.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_sk.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_fr.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_fr.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_lt.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_lt.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ko.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ko.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_sk.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_sk.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_zh_TW.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_zh_TW.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_ru.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ru.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_pl.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_pl.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_uk.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_uk.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ar.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ar.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_he.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_he.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_sl.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_sl.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_it.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_it.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_it.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_it.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_lv.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_lv.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_es.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_es.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_gl.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_gl.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_pl.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_pl.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_hu.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_hu.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_pl.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_pl.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_sv.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_sv.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_tr.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_tr.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_sk.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_sk.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_ca.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ca.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_es.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_es.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_fa.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_fa.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_gd.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_gd.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_ko.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ko.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ca.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ca.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_cs.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_cs.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_bg.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_bg.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_en.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_en.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_ar.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ar.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_bg.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_bg.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_da.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_da.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_bg.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_bg.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_fr.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_fr.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_de.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_de.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_ca.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ca.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_da.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_da.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_uk.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_uk.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_uk.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_uk.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_ja.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ja.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_ru.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ru.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ru.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ru.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_fi.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_fi.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_tr.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_tr.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_he.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_he.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_cs.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_cs.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_tr.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_tr.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_es.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_es.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_zh_CN.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_zh_CN.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_zh_CN.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_zh_CN.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_ko.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ko.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_fi.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_fi.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_hu.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_hu.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_ar.qm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ar.qm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBolIta.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBolIta.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\help.pdf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\help.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\cmr10.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmr10.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pplb8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pplb8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\plot_directive\\plot_directive.css',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\plot_directive\\plot_directive.css',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Oblique.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Oblique.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\home.pdf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\home.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pagd8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pagd8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\move.svg',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\move.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\filesave.png',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\filesave.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Oblique.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Oblique.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\phvl8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvl8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymBol.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymBol.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBolIta.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBolIta.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\membrane.dat',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\membrane.dat',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\phvr8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvr8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pzdr.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pzdr.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBol.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBol.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\axes_grid\\bivariate_normal.npy',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\axes_grid\\bivariate_normal.npy',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\hand.png',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\hand.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\cmmi10.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\cmmi10.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-BoldOblique.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-BoldOblique.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\ZapfDingbats.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\ZapfDingbats.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\home.svg',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\home.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymBol.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymBol.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\subplots_large.png',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\subplots_large.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymReg.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymReg.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pncb8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pncb8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\zoom_to_rect_large.png',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\zoom_to_rect_large.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-Roman.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-Roman.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\phvbo8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvbo8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\phvr8an.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvr8an.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\subplots-symbolic.svg',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\subplots-symbolic.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\cmex10.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmex10.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\kpsewhich.lua',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\kpsewhich.lua',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\phvbo8an.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvbo8an.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\hand.svg',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\hand.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\embedding_in_wx3.xrc',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\embedding_in_wx3.xrc',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\bmh.mplstyle',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\bmh.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\filesave_large.png',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\filesave_large.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\data_x_x2_x3.csv',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\data_x_x2_x3.csv',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pncri8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pncri8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\cmb10.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmb10.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\readme.txt',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\readme.txt',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\qt4_editor_options.png',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\qt4_editor_options.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\zoom_to_rect-symbolic.svg',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\zoom_to_rect-symbolic.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\grace_hopper.jpg',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\grace_hopper.jpg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\ptmr8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\ptmr8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\ptmri8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\ptmri8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\forward.svg',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\forward.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\move.pdf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\move.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralItalic.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralItalic.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\phvb8an.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvb8an.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\dark_background.mplstyle',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\dark_background.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica-Oblique.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica-Oblique.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-paper.mplstyle',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-paper.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica-BoldOblique.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica-BoldOblique.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\cmmi10.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmmi10.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\ptmb8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\ptmb8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\phvb8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvb8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\back.png',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\back.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-poster.mplstyle',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-poster.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\hand.pdf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\hand.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\phvlo8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvlo8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\cmss10.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmss10.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\ggplot.mplstyle',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\ggplot.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-talk.mplstyle',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-talk.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneral.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneral.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\matplotlib.png',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\matplotlib.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymReg.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymReg.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier-Bold.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier-Bold.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pagko8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pagko8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pagdo8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pagdo8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\back-symbolic.svg',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\back-symbolic.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\README.txt',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\README.txt',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\cmtt10.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmtt10.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pcrb8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pcrb8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\help.png',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\help.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\move_large.png',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\move_large.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-BoldOblique.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-BoldOblique.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\psyr.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\psyr.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\subplots.pdf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\subplots.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pzcmi8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pzcmi8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier-Oblique.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier-Oblique.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\back_large.png',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\back_large.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Symbol.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Symbol.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\matplotlib.pdf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\matplotlib.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\phvro8an.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvro8an.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\phvro8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvro8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-BoldItalic.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-BoldItalic.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\help-symbolic.svg',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\help-symbolic.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\forward-symbolic.svg',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\forward-symbolic.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\move-symbolic.svg',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\move-symbolic.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Bold.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Bold.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymReg.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymReg.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansDisplay.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansDisplay.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\logo2.png',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\logo2.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\grayscale.mplstyle',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\grayscale.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-dark.mplstyle',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-dark.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\tableau-colorblind10.mplstyle',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\tableau-colorblind10.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\cmr10.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\cmr10.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\home.png',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\home.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\back.pdf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\back.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\eeg.dat',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\eeg.dat',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pcrbo8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pcrbo8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pcrro8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pcrro8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Bold.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Bold.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-pastel.mplstyle',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-pastel.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-notebook.mplstyle',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-notebook.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-bright.mplstyle',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-bright.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-colorblind.mplstyle',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-colorblind.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymBol.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymBol.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\_mpl-gallery.mplstyle',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\_mpl-gallery.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\_classic_test_patch.mplstyle',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\_classic_test_patch.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\msft.csv',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\msft.csv',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\_mpl-gallery-nogrid.mplstyle',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\_mpl-gallery-nogrid.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Bold.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Bold.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\matplotlib.svg',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\matplotlib.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\forward.png',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\forward.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\jacksboro_fault_dem.npz',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\jacksboro_fault_dem.npz',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\back.svg',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\back.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-white.mplstyle',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-white.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\Stocks.csv',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\Stocks.csv',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pplri8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pplri8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pbkli8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pbkli8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\LICENSE_STIX',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\LICENSE_STIX',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pncbi8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pncbi8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-dark-palette.mplstyle',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-dark-palette.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\Minduka_Present_Blue_Pack.png',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\Minduka_Present_Blue_Pack.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\cmex10.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\cmex10.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pcrr8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pcrr8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pplbi8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pplbi8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-BoldItalic.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-BoldItalic.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\forward_large.png',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\forward_large.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\filesave.svg',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\filesave.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\subplots.svg',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\subplots.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBol.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBol.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\putr8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\putr8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\filesave.pdf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\filesave.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerifDisplay.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerifDisplay.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\goog.npz',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\goog.npz',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\s1045.ima.gz',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\s1045.ima.gz',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-deep.mplstyle',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-deep.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\LICENSE_DEJAVU',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\LICENSE_DEJAVU',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\qt4_editor_options_large.png',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\qt4_editor_options_large.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-whitegrid.mplstyle',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-whitegrid.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8.mplstyle',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pagk8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pagk8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniIta.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniIta.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\home_large.png',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\home_large.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\putb8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\putb8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pbkd8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pbkd8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\topobathy.npz',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\topobathy.npz',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\Solarize_Light2.mplstyle',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\Solarize_Light2.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\cmsy10.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmsy10.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\fivethirtyeight.mplstyle',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\fivethirtyeight.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\matplotlib_large.png',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\matplotlib_large.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier-BoldOblique.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier-BoldOblique.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\home-symbolic.svg',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\home-symbolic.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\zoom_to_rect.pdf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\zoom_to_rect.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\matplotlibrc',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\matplotlibrc',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\help_large.png',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\help_large.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pncr8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pncr8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica-Bold.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica-Bold.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pbkl8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pbkl8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\putri8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\putri8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\forward.pdf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\forward.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymBol.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymBol.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-Bold.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-Bold.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-Italic.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-Italic.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\putbi8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\putbi8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\cmsy10.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\cmsy10.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\qt4_editor_options.pdf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\qt4_editor_options.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\move.png',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\move.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\subplots.png',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\subplots.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\classic.mplstyle',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\classic.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\filesave-symbolic.svg',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\filesave-symbolic.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\qt4_editor_options.svg',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\qt4_editor_options.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\zoom_to_rect.svg',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\zoom_to_rect.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\cmtt10.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\cmtt10.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\zoom_to_rect.png',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\zoom_to_rect.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Italic.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Italic.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\help.svg',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\help.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUni.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUni.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-ticks.mplstyle',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-ticks.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-darkgrid.mplstyle',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-darkgrid.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\fast.mplstyle',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\fast.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pbkdi8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pbkdi8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pplr8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pplr8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFiveSymReg.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFiveSymReg.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymReg.ttf',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymReg.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\ptmbi8a.afm',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\ptmbi8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-muted.mplstyle',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-muted.mplstyle',
+   'DATA'),
+  ('certifi\\py.typed',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\certifi\\py.typed',
+   'DATA'),
+  ('certifi\\cacert.pem',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\certifi\\cacert.pem',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qtwebkit.py',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qtwebkit.py',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qaxcontainer.py',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qaxcontainer.py',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qtquickwidgets.py',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qtquickwidgets.py',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qtwebenginewidgets.py',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qtwebenginewidgets.py',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qtcharts.py',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qtcharts.py',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qscintilla.py',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qscintilla.py',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qtprintsupport.py',
+   'G:\\solyanka '
+   'documentov\\Projects\\Python\\venv\\Lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qtprintsupport.py',
+   'DATA')])

@@ -1,0 +1,51 @@
+version: "3.2"
+
+services:
+  selenium-hub:
+    image: selenium/hub:3.141.59-20210311
+    ports:
+      - "4444:4444"
+    networks:
+      - frontend
+
+  firefox:
+    image: selenium/node-firefox
+    depends_on:
+      - selenium-hub
+      - backend
+    environment:
+      HUB_HOST: selenium-hub
+    env_file: .env
+    networks:
+      - frontend
+    expose:
+      - "5555"
+
+  accept:
+    build:
+      context: .
+      dockerfile: tests/acceptance/Dockerfile
+    env_file: .env
+
+    networks:
+      - frontend
+
+  smtp:
+    image: schickling/mailcatcher
+    container_name: mailcatcher
+    restart: on-failure
+    networks:
+      - backend
+      - frontend
+
+
+  fixture_loader:
+    build:
+      context: .
+      dockerfile: web/Dockerfile
+    image: $IMAGE_BACKEND
+    env_file: .env
+    networks:
+      - backend
+    restart: on-failure
+    entrypoint: "sh entrypoint.load_fixtures.sh"

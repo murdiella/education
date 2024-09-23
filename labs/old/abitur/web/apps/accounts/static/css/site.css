@@ -1,0 +1,156 @@
+body,main
+{
+	min-height: 100vh;
+}
+.topbar
+{
+	display: flex;
+	align-items: center;
+	min-height: 90px;
+}
+.brand
+{
+	display: flex;
+	align-items: center;
+}
+.brand__logo
+{
+	display: block;
+	width: 32px;
+	height: 32px;
+}
+.brand__priem
+{
+	margin-left: 15px;
+	display: block;
+	min-width: 151px;
+	width: 151px;
+	height: 12px;
+	background: url(https://dev.mai.ru/generic/images/logo/priem.svg?2020) no-repeat;
+	background-size: contain;	
+}
+h1
+{
+	font-size: 1.8em;
+	color: #1C00EC;
+	font-weight: 300;
+	max-width: 240px;
+}
+.header
+{
+
+}
+.act-caption
+{
+	font-size: 1rem;
+	font-weight: 400;
+}
+.act-caption h6
+{
+	color: #000;	
+	font-size: 1.1em;
+	font-weight: inherit;
+	line-height: 1.4;
+}
+.act-caption h6:after
+{
+	display: block;
+	content:"";
+	width: 52px;
+    height: 5px;
+    background-color: #1c00ec;
+	margin: 1.6em 0 1.6em;
+}
+.mainmenu .act-caption h6
+{
+	color: white;
+	text-align: center;
+}
+.mainmenu .act-caption h6:after
+{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #402bf1;
+}
+.mainmenu a
+{
+	color: rgba(70,190,255,1);/*46BEFF | #3ebdff*/
+	transition: color .3s ease;
+}
+.mainmenu a:hover,.mainmenu a:focus,.mainmenu a:active
+{
+	color: rgba(70,190,255,.7);
+}
+.mainmenu .mainmenu__item 
+{
+	margin-top: 1rem;
+	color: #bdbdbd;
+	font-weight: 600;
+}
+.mainmenu .mainmenu__item:hover, .mainmenu .mainmenu__item:focus, .mainmenu .mainmenu__item:active
+{
+	color: #402bf1;
+}
+.act-caption p
+{
+	color: #888;
+	font-size: .9em;
+	line-height: 1.2;
+}
+.card-holder
+{
+	margin: -10px;
+}
+.card
+{
+	border: none;
+	border-radius: 6px;
+	margin: 10px;
+}
+.card__content-default
+{
+	padding: 50px 60px;
+}
+@media all and (max-width: 575.98px)
+{
+	.card__content-default
+	{
+		padding: 20px 20px;
+	}
+}
+.card_white
+{
+	background-color: #fff;
+}
+.header,.content
+{	
+	margin-top: 30px;	
+}
+@media all and (max-width: 991.98px)
+{
+	.header,.content	{	margin-top: 10px;	}	
+}
+h6
+{
+	line-height: 1.4;
+}
+.btn-usermenu
+{
+	color: #1c00ec;
+	font-size: 28px;
+	line-height: 0;
+	padding: 4px;
+	border: none;
+	background: none;
+}
+/*	временно */
+.col-xl-3.col-lg-12
+{
+	display: none;
+}
+.col-xl-9.col-lg-12
+{
+	max-width: 100%;
+	flex: 0 0 100%;
+}
+/*	/временно */

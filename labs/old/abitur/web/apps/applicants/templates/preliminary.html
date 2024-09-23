@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+
+{% block main %}
+    <div class="main-content">
+        <div class="container-fluid">
+            <div class="row mb-4">
+                <div class="col-12">
+                    <div class="title">
+                        <h2 class="h2 title__h2">Предварительная регистрация</h2>
+                    </div>
+                </div>
+            </div>
+            <form
+                    method="POST"
+            >
+
+                <div class="row">
+                    <div
+                            class="col-sm-12"
+                    >
+                        <div class="form-group">
+                            <label
+                                    class="form__label"
+                                    for="language"
+                            >
+                                Иностранный язык для изучения в МАИ<span class="asterisk _danger"> *</span>
+                            </label>
+                            <select
+                                    name="language"
+                                    id="language"
+                                    class="custom-select"
+                                    required
+                            >
+                                <option
+                                        value="null"
+                                        {% if not applicant.language %}
+                                        selected
+                                        {% endif %}
+                                        disabled
+                                >
+                                    Выберите иностранный язык
+                                </option>
+                                <option
+                                        value="EN"
+                                        {% if applicant.language == "EN" %}
+                                        selected
+                                        {% endif %}
+                                >
+                                    Английский
+                                </option>
+                                <option
+                                        value="FR"
+                                        {% if applicant.language == "FR" %}
+                                        selected
+                                        {% endif %}
+                                >
+                                    Французский
+                                </option>
+                                <option
+                                        value="GE"
+                                        {% if applicant.language == "GE" %}
+                                        selected
+                                        {% endif %}
+                                >
+                                    Немецкий
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div
+                            class="col-sm-12"
+                    >
+                        <input
+                                type="checkbox"
+                                name="need_dormitory"
+                                id="need_dormitory"
+                                class="form__checkbox"
+                        />
+                        <label
+                                class="form__check-label"
+                                for="need_dormitory"
+                        >
+                            Нуждаюсь в общежитии
+                        </label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="form__button form_end text-right">
+                            <input
+                                    type="submit"
+                                    value="Отправить"
+                                    name="submit-button"
+                                    class="d-inlineblock button button_lg button_blue"
+                            />
+                        </div>
+                    </div>
+                </div>
+                {% csrf_token %}
+            </form>
+        </div>
+    </div>
+{% endblock %}

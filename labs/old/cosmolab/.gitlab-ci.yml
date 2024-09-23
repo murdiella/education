@@ -1,0 +1,12 @@
+# running my test.py pipeline
+image: python:latest
+
+stages:
+  - test
+
+unit-test-job:
+  stage: test
+  script:
+    - echo "Running unit tests..."
+    - python test.py test
+    - echo "All tests passed"

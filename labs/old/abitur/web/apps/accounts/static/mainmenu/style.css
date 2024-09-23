@@ -1,0 +1,85 @@
+.mainmenu
+{
+	padding-right: 0 !important;
+}
+.modal__btn-close
+{
+	line-height: 0;
+	padding: .5em;
+	cursor: pointer;
+	cursor: hand;
+	font-size: 1.3em;
+	color: rgba(255,255,255,.8);
+}
+.mainmenu_searching .modal__btn-close
+{
+	display: none;
+}
+.mainmenu .modal-dialog
+{
+	max-width: none;
+	height: 100%;
+	margin: auto;
+}
+.mainmenu .modal-content
+{
+	min-height: 100vh;
+	background-color: #212130;
+	border: 0;
+	border-radius: 0;
+}
+.mainmenu__swiper-slide,
+.mainmenu__section,
+.modal
+{
+	-webkit-overflow-scrolling: touch;
+}
+.mainmenu__logo
+{
+	display: flex;
+	align-items: center;
+}
+.mainmenu__body
+{
+	padding-bottom: 15vh;
+}
+.mainmenu__logo > a:first-child
+{
+	margin-right: 15px;
+}
+.mainmenu__logo .logo-mai._white
+{
+	display: block;
+	width: 32px;
+	height: 32px;
+	min-width: 32px;
+	background: url(images/logo-white.svg) no-repeat;
+	background-size: contain;
+}
+.mainmenu__logo .logo-priem._menu
+{
+	display: block;
+	min-width: 151px;
+	width: 151px;
+	height: 12px;
+	background: url(images/logo-priem-menu.svg) no-repeat;
+	background-size: contain;
+}
+ul.mainmenu__nav
+{
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+ul.mainmenu__nav > li
+{
+	padding: .4em 1.2em .4em 1.2em;
+}
+ul.mainmenu__nav a
+{
+	display: block;
+	padding-top: .2em;
+	padding-bottom: .2em;
+	color: white;
+	font-size: .85em;
+	font-weight: 600;
+}

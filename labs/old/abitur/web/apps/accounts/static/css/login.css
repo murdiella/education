@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.auth
+{
+	width: 100%;
+	padding: 1.6em 0;
+}
+
+.auth__body
+{
+	max-width: 280px;
+	width: 80%;
+}
+.auth .form-group
+{
+	min-height: auto;
+}
+
+.auth {
+	min-height: 100vh;
+}
+
+.presentation
+{
+	display: none;
+}
+@media all and (min-width: 768px) and (max-width: 991.98px)
+{
+	.auth__body
+	{
+		max-width: 360px;
+	}
+}
+@media all and (min-width: 992px)
+{
+	.auth
+	{
+		width: 30%;
+	}
+	.presentation
+	{
+		display: block;
+		flex-grow: 1;
+		background: url(/static/img/welcome.jpg) no-repeat;
+		background-size: cover;
+	}
+}
+.brand__logo
+{
+	width: 22px;
+	height: 22px;
+	background: url(https://dev.mai.ru/generic/images/logo/mai.svg) no-repeat;
+	background-size: contain;
+}
+.brand__logo-priem
+{
+	margin-left: 10px;
+	width: 112px;
+	height: 9px;
+	background: url(https://dev.mai.ru/generic/images/logo/priem.svg?2020?2020) no-repeat;
+	background-size: contain;
+}
+h1
+{
+	font-size: 1.8em;
+	color: #1C00EC;
+	font-weight: 300;
+	max-width: 240px;
+}
+.py
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.auth label
+{
+	display: none;
+}
+.auth button[type="submit"]
+{
+	width: 100%;
+}
+.auth .form__input:not(:focus)
+{
+	border-color: rgba(150,150,150,.1);
+}
+.auth .form__input
+{
+	height: auto;
+}
+.auth .form-group
+{
+	padding-top: 10px;
+}
+.help-block
+{
+    color: #999;
+    font-weight: 400;
+    margin-bottom: .2rem;
+    margin-top: 3px;
+    font-size: 12px;
+    line-height: 1.2;
+}
+.help-block.help-block-error
+{
+	color: #ff1111;
+}
+.form-group .help-block
+{
+	max-height: 0;
+	transition: max-height .8s ease;
+	overflow-y: hidden;
+}
+.form-group.has-error .help-block
+{
+    max-height: 100px;
+}
+.button_blue:active,.button_blue.button:focus
+{
+	border-color: #008bcd;
+	background-color: #008bcd;
+}
+input.form__input::-webkit-input-placeholder	{ color: #999; text-transform: uppercase; font-size: .85em; font-weight: 600; padding-top: 3px; }
+input.form__input:-ms-input-placeholder			{ color: #999; text-transform: uppercase; font-size: .85em; font-weight: 600; padding-top: 3px; }
+input.form__input::-ms-input-placeholder		{ color: #999; text-transform: uppercase; font-size: .85em; font-weight: 600; padding-top: 3px; }
+input.form__input::placeholder					{ color: #999; text-transform: uppercase; font-size: .85em; font-weight: 600; padding-top: 3px; }

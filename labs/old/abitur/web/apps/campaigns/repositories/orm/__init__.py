@@ -1,0 +1,1 @@
+from .megadirection import MegaDirection

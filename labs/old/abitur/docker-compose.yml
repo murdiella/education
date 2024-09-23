@@ -1,0 +1,57 @@
+version: '3.2'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: web/Dockerfile
+    image: $IMAGE_BACKEND
+    container_name: backend
+    env_file: .env
+    volumes:
+      - static:/usr/src/static
+    networks:
+      - backend
+      - frontend
+
+  postgres:
+    image: $IMAGE_DATABASE
+    build: database
+    container_name: postgres
+    env_file: .env
+    restart: on-failure
+    networks:
+      - backend
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+  webserver:
+    build: nginx
+    image: $IMAGE_WEBSERVER
+    restart: on-failure
+    volumes:
+      - type: volume
+        source: static
+        target: /static
+        read_only: true
+    networks:
+      - frontend
+      - elknetwork
+    ports:
+      - "80:80"
+      - "443:443"
+    healthcheck:
+      test: curl --fail -s http://localhost/
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+networks:
+  frontend:
+  backend:
+  elknetwork:
+    driver: bridge
+
+volumes:
+  static:
+  db_data:

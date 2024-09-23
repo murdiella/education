@@ -1,0 +1,19 @@
+.button_light
+{
+	color: #007bff !important;
+	background-color: #f0f0f0 !important;
+	border: none !important;
+	font-weight: 700 !important;
+}
+.button_light:hover,.button_light:focus,.button_light:active
+{
+	color: #0056b3 !important;
+}
+.button_md
+{
+	padding: .75em 1.3em;
+}
+.button_md.button_light
+{
+	font-size: .85rem !important;
+}

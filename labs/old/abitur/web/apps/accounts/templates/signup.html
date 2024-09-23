@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+
+{% block main %}
+    <div class="main-content">
+        <div class="container-fluid">
+            <div class="row mb-4">
+                <div class="col-12">
+                    <div class="title">
+                        <h2 class="h2 title__h2">Регистрация абитуриента</h2>
+                        <span class="span title__span">Все поля обязательны</span>
+                    </div>
+                </div>
+            </div>
+            <form
+                    method="POST"
+                    action="{% url 'accounts:signup' %}"
+            >
+                <div class="row">
+                    <div class="col-12">
+                        <div class="subtitle">
+                            <h3 class="h3 subtitle__h3">Пользовательские данные</h3>
+                            <hr class="subtitle__hr">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                        <label
+                                class="form__label"
+                                for="email"
+                        >
+                            E-mail
+                        </label>
+                        <input
+                                class="form__input"
+                                name="email"
+                                id="email"
+                                required
+                        >
+                        {{ form.email.errors }}
+                        <div
+                                class="form__small"
+                        >
+                            Укажите свою электронную почту
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <label
+                                class="form__label"
+                                for="password"
+                        >
+                            Пароль
+                        </label>
+                        <input
+                                class="form__input"
+                                name="password"
+                                id="password"
+                                required
+                                type="password"
+                        >
+                        {{ form.password.errors }}
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="form__button form_end text-right">
+                        <input type="submit" value="Зарегистрироваться" id="id_submit"
+                               class="button button_lg button_blue button_reg-custom">
+                    </div>
+                </div>
+                {% csrf_token %}
+            </form>
+            {% if messages %}
+                <ul class="messages">
+                    {% for message in messages %}
+                        <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}

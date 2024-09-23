@@ -1,0 +1,110 @@
+{% load static %}
+
+<html lang="ru">
+<head>
+    <title>МАИ</title>
+    {% block base_styles %}
+        <link rel="shortcut icon" href="/static/img/favicon.ico" />
+        <link rel="stylesheet" href="https://dev.mai.ru/generic/generic.fonts.css">
+        <link rel="stylesheet" href="https://dev.mai.ru/generic/vendor/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://dev.mai.ru/generic/vendor/jquery/jquery-3.4.1.min.js"></script>
+        <script src="https://dev.mai.ru/generic/vendor/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="https://dev.mai.ru/generic/vendor/swiper/4.5.0/dist/css/swiper.min.css">
+        <script src="https://dev.mai.ru/generic/vendor/swiper/4.5.0/dist/js/swiper.min.js"></script>
+        <link href="{% static 'css/reset.css' %}" rel="stylesheet">
+        <link href="{% static 'css/site.css' %}" rel="stylesheet">
+        <link href="{% static 'css/ui.css' %}" rel="stylesheet">
+        <link href="{% static 'css/generic.css' %}" rel="stylesheet">
+        <link href="{% static 'mainmenu/style.css' %}" rel="stylesheet">
+        <link href="{% static 'css/updates.css' %}" rel="stylesheet">
+        <link href="{% static 'css/updates-ui.css' %}" rel="stylesheet">
+        <link href="{% static 'fontawesome-pro-5.8.2-web/css/all.min.css' %}" rel="stylesheet">
+    {% endblock %}
+    {% block styles %}
+    {% endblock %}
+</head>
+<body>
+    <main class="" style="padding-bottom:140px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 d-none d-lg-block">
+                    <aside>
+                        <div class="position-fixed vh-100" style="max-width:250px;padding-right:2.2em;">
+                            <div class="topbar">
+                                <div class="brand">
+                                    <a
+                                            class="brand__logo"
+                                            href="https://priem.mai.ru">
+                                        <img
+                                                width="32"
+                                                height="32"
+                                                src="https://dev.mai.ru/generic/images/logo/mai_32x32.png"
+                                                srcset="https://dev.mai.ru/generic/images/logo/mai_32x32.png 1x, https://dev.mai.ru/generic/images/logo/mai_64x64.png 2x"
+                                        />
+                                    </a>
+                                    <a
+                                            class="brand__priem"
+                                            href="/">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="sidebar">
+                                <div class="header">
+                                    <!-- .logo-lk используется только в js и ../template-parts/userinfo.php -->
+                                    <span class="logo-lk d-block text-center pt-3 pb-5 my-4"><img width="72" height="72" src="{% static '/img/lk-logo.png' %}"/></span>
+                                </div>
+                                <div class="main-left-bar">
+                                    {% if user.is_authenticated %}
+                                        <div class="block-lk">
+                                            <span class="username" data-user-id="{{ user.id }}">
+                                                {{ user.applicant.person.firstname }}
+                                                <br>
+                                                {{ user.applicant.person.lastname }}
+                                            </span>
+                                            <div class="d-flex justify-content-center justify-content-lg-start align-items-center">
+                                                <a href="/" class="personal-account mr-1">
+                                                    <span>
+                                                        Личный кабинет
+                                                    </span>
+                                                </a>
+                                                <a href="/accounts/logout" class="leave-account px-0 ml-1">
+                                                    <span>
+                                                        Выйти
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+                <div class="col-lg-9">
+                    <section>
+                        <div class="topbar d-none d-lg-flex justify-content-between">
+                            <!--
+                            <div>
+                                <a class="text-smaller d-block text-uppercase font-weight-bold mb-1" href="https://youtu.be/M41NpDY5wtI" target="_blank" style="color: #ff9000;">Видеогид (подача заявления)</a>
+                                <a class="text-smaller d-block text-uppercase font-weight-bold" href="https://youtu.be/RJIWNNngAYo" target="_blank" style="color: #00a5f1;">Видеогид (поступление на платное)</a>
+                            </div>
+                            -->
+                        </div>
+                        <div class="content">
+                            {% block main %}
+                            {% endblock %}
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="{% static '/js/jquery-ui.min.js' %}"></script>
+    <script src="{% static '/js/jquery.inputmask.bundle.js' %}"></script>
+    <script src="{% static '/js/datepicker-ru.js' %}"></script>
+<script src="{% static '/mainmenu/script.js' %}"></script>
+<script src="{% static '/js/scripts.js' %}"></script>
+<script src="{% static '/js/scripts.update.js' %}"></script>
+</body>

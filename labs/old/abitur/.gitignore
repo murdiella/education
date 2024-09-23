@@ -1,0 +1,28 @@
+# Virtual environment directory
+.venv/
+venv/
+
+# IDE configuration
+.idea/
+
+# Local database
+db.sqlite3
+
+# Log of geckodriver
+geckodriver.log
+
+# Coverage reports
+.coverage
+htmlcov
+
+# Python cache
+__pycache__/
+
+# Environment settings
+.env
+
+# Collected static files
+/app/static/
+
+# pytest cache
+.pytest_cache/

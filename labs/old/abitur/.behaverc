@@ -1,0 +1,3 @@
+[behave]
+    paths=tests/acceptance/features
+    log_capture=false

@@ -1,0 +1,658 @@
+{% extends 'base.html' %}
+
+{% block main %}
+    <div class="main-content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title">
+                        <h2 class="h2 title__h2">Паспортные и контактные данные</h2>
+                    </div>
+                </div>
+            </div>
+
+            <form
+                    method="POST"
+            >
+                <div class="row">
+                    <div class="col-12">
+                        <div class="subtitle">
+                            <h3 class="h3 subtitle__h3">Персональная информация</h3>
+                            <hr class="subtitle__hr">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label
+                                    class="form__label"
+                                    for="lastname"
+                            >
+                                Фамилия
+                                <span class="asterisk _danger"> *
+					</span>
+                            </label>
+                            <input
+                                    class="form__input"
+                                    name="lastname"
+                                    id="lastname"
+                                    required
+                                    value="{{ person.lastname }}"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label
+                                    class="form__label"
+                                    for="firstname"
+                            >
+                                Имя
+                                <span class="asterisk _danger"> *
+					</span>
+                            </label>
+                            <input
+                                    class="form__input"
+                                    name="firstname"
+                                    id="firstname"
+                                    value="{{ person.firstname }}"
+                                    required
+                            />
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label
+                                    class="form__label"
+                                    for="middlename"
+                            >
+                                Отчество
+                            </label>
+                            <input
+                                    class="form__input"
+                                    name="middlename"
+                                    id="middlename"
+                                    value="{{ person.middlename }}"
+                            />
+                            <div
+                                    class="form__small"
+                            >
+                                Необязательно
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label class="form__label">Пол<span class="asterisk _danger "> *</span></label>
+                            <div class="btn-group btn-group-toggle " data-toggle="buttons"
+                                 style="width: 100%"
+                            >
+                                <label class="btn button-toggle">
+                                    <input
+                                            type="radio"
+                                            name="gender"
+                                            value=1
+                                            {% if person.gender == "ML" %}
+                                            checked
+                                            {% endif %}
+                                    >
+                                    Мужской
+                                </label>
+                                <label class="btn button-toggle">
+                                    <input
+                                            type="radio"
+                                            name="gender"
+                                            value=2
+                                            {% if person.gender == "FM" %}
+                                            checked
+                                            {% endif %}
+                                    >
+                                    Женский
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label
+                                    class="form__label"
+                                    for="date_of_birth"
+                            >
+                                Дата рождения<span class="asterisk _danger "> *</span>
+                            </label>
+                            <div class="form__input_with-icon">
+                                <input
+                                        name="date_of_birth"
+                                        id="date_of_birth"
+                                        class="form__input_date"
+                                        required
+                                        value="{{ person.date_of_birth|date:"d.m.Y" }}"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label
+                                    class="form__label"
+                                    for="place_of_birth"
+                            >
+                                Место рождения
+                                <span class="asterisk _danger"> *
+					</span>
+                            </label>
+                            <input
+                                    class="form__input"
+                                    name="place_of_birth"
+                                    id="place_of_birth"
+                                    required
+                                    value="{{ person.place_of_birth }}"
+                            />
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="subtitle">
+                            <h3 class="h3 subtitle__h3">Паспортные данные</h3>
+                            <hr class="subtitle__hr">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label
+                                    class="form__label"
+                                    for="series"
+                            >
+                                Серия
+                                </span>
+                            </label>
+                            <input
+                                    class="form__input"
+                                    name="series"
+                                    id="series"
+                                    value="{{ person.passport.series }}"
+                            />
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label
+                                    class="form__label"
+                                    for="number"
+                            >
+                                Номер<span class="asterisk _danger "> *</span>
+                                </span>
+                            </label>
+                            <input
+                                    class="form__input"
+                                    name="number"
+                                    id="number"
+                                    required
+                                    value="{{ person.passport.number }}"
+                            />
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label
+                                    class="form__label"
+                                    for="issued_date"
+                            >
+                                Когда выдан<span class="asterisk _danger "> *</span>
+                            </label>
+                            <div class="form__input_with-icon">
+                                <input
+                                        name="issued_date"
+                                        id="issued_date"
+                                        class="form__input_date"
+                                        value="{{ person.passport.issued_date|date:'d.m.Y' }}"
+                                        required
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label
+                                    class="form__label"
+                                    for="issued_code"
+                            >
+                                Код подразделения
+                                </span>
+                            </label>
+                            <input
+                                    class="form__input"
+                                    name="issuer_code"
+                                    id="issuer_code"
+                                    value="{{ person.passport.issuer_code }}"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-8">
+                        <div class="form-group">
+                            <label
+                                    class="form__label"
+                                    for="issuer"
+                            >
+                                Кем выдан
+                                </span>
+                            </label>
+                            <input
+                                    class="form__input"
+                                    name="issuer"
+                                    id="issuer"
+                                    value="{{ person.passport.issuer }}"
+                            />
+                            <div
+                                    class="form__small"
+                            >
+                                В строгом соответсвии с паспортом
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="subtitle">
+                            <h3 class="h3 subtitle__h3">Адрес постоянной регистрации</h3>
+                            <hr class="subtitle__hr">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-4">
+                    <div
+                            class="col-sm-12"
+                    >
+                        <input
+                                type="checkbox"
+                                name="no_address"
+                                id="no_address"
+                                class="form__checkbox"
+                                onchange="change_handler()"
+                                {% if person.no_address %}
+                                checked
+                                {% endif %}
+                        />
+                        <label
+                                class="form__check-label"
+                                for="no_address"
+                        >
+                            Без определенного места жительства
+                        </label>
+                    </div>
+                </div>
+                <div class="row disable-row">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label
+                                    class="form__label"
+                                    for="region"
+                            >
+                                Регион
+                                </span>
+                            </label>
+                            <input
+                                    class="form__input"
+                                    name="region"
+                                    id="region"
+                                    value="{{ person.address.region }}"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label
+                                    class="form__label"
+                                    for="district"
+                            >
+                                Район
+                                </span>
+                            </label>
+                            <input
+                                    class="form__input"
+                                    name="district"
+                                    id="district"
+                                    value="{{ person.address.district }}"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label
+                                    class="form__label"
+                                    for="city"
+                            >
+                                Город
+                                </span>
+                            </label>
+                            <input
+                                    class="form__input"
+                                    name="city"
+                                    id="city"
+                                    value="{{ person.address.city }}"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label
+                                    class="form__label"
+                                    for="township"
+                            >
+                                Населенный пункт
+                                </span>
+                            </label>
+                            <input
+                                    class="form__input"
+                                    name="township"
+                                    id="township"
+                                    value="{{ person.address.township }}"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label
+                                    class="form__label"
+                                    for="zipcode"
+                            >
+                                Почтовый индекс
+                                </span>
+                            </label>
+                            <input
+                                    class="form__input"
+                                    name="zipcode"
+                                    id="zipcode"
+                                    value="{{ person.address.zipcode }}"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label
+                                    class="form__label"
+                                    for="street"
+                            >
+                                Улица
+                                </span>
+                            </label>
+                            <input
+                                    class="form__input"
+                                    name="street"
+                                    id="street"
+                                    value="{{ person.address.street }}"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-4">
+                        <div class="form-group">
+                            <label
+                                    class="form__label"
+                                    for="house"
+                            >
+                                Дом
+                                </span>
+                            </label>
+                            <input
+                                    class="form__input"
+                                    name="house"
+                                    id="house"
+                                    value="{{ person.address.house }}"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-4">
+                        <div class="form-group">
+                            <label
+                                    class="form__label"
+                                    for="building"
+                            >
+                                Корпус
+                                </span>
+                            </label>
+                            <input
+                                    class="form__input"
+                                    name="building"
+                                    id="building"
+                                    value="{{ person.address.building }}"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-4">
+                        <div class="form-group">
+                            <label
+                                    class="form__label"
+                                    for="apartment"
+                            >
+                                Квартира
+                                </span>
+                            </label>
+                            <input
+                                    class="form__input"
+                                    name="apartment"
+                                    id="apartment"
+                                    value="{{ person.address.apartment }}"
+                            />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="subtitle">
+                            <h3 class="h3 subtitle__h3">Контактная иформация</h3>
+                            <hr class="subtitle__hr">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label
+                                    class="form__label"
+                                    for="phone"
+                            >
+                                Основной телефон<span class="asterisk _danger "> *</span>
+                            </label>
+                            <input
+                                    class="form__input phone-number"
+                                    name="phone"
+                                    id="phone"
+                                    required
+                                    value="{{ person.phone }}"
+                            />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" id="phones">
+                    {% for phone in person.additional_phones.all %}
+                        <div class="form-group col-12 row">
+                            <div class="col-xs-8 col-lg-10">
+                                <label
+                                        class="form__label"
+                                        for="phones[]"
+                                >
+                                    Телефон
+                                </label>
+                                <input
+                                        class="form__input phone-number"
+                                        name="phones[]"
+                                        value="{{ phone.number }}"
+                                />
+                            </div>
+                            <div class="col-4 col-lg-2 btn">
+                                <label class="form__label">Удалить</label>
+                                <div class="delete-button" style="margin-left:auto" onclick="delete_item(this)">
+                                    <i class="fa fa-trash" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+                <div class="row mb-4">
+                    <button
+                            id="add_phone"
+                            class="btn btn-link"
+                    >
+                        Добавить телефон
+                    </button>
+                </div>
+
+                <div class="row" id="social">
+                </div>
+                <div class="row">
+                    <button
+                            id="add_social"
+                            class="btn btn-link"
+                    >
+                        Добавить ссылку на социальные сети
+                    </button>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="subtitle">
+                            <h3 class="h3 subtitle__h3">Согласие на обработку персональных данных</h3>
+                            <hr class="subtitle__hr">
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                        class="row"
+                >
+                    <div
+                            class="col-sm-12"
+                    >
+                        <input
+                                type="checkbox"
+                                name="personal_data_processing_agree"
+                                id="personal_data_processing_agree"
+                                class="form__checkbox"
+                                required
+                                {% if person.pd_agreement %}
+                                checked
+                                {% endif %}
+                        />
+                        <label
+                                class="form__check-label"
+                                for="personal_data_processing_agree"
+                                id="personal_data_processing_agree_label"
+                        >
+                            Я согласен на обработку персональных данных
+                            данных в соответсвии с требованиями 152-ФЗ
+                            <span class="asterisk _danger "> *</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="form__button form_end text-right">
+                            <input
+                                    type="submit"
+                                    value="Далее"
+                                    name="submit-button"
+                                    class="d-inlineblock button button_lg button_blue"
+                            />
+                        </div>
+                    </div>
+                </div>
+                {% csrf_token %}
+            </form>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        function change_handler() {
+            if ($("#no_address").is(':checked') == true) {
+                $('.disable-row').slideUp("slow");
+            } else {
+                $('.disable-row').slideDown("slow");
+            }
+        }
+
+        function add_phone(event) {
+            const elem = $("#phones")
+            const item = `
+			<div class="form-group col-12 row">
+			<div class="col-xs-8 col-lg-10">
+					<label
+						class="form__label"
+						for="phones[]"
+					>
+						Телефон
+					</label>
+					<input
+								class="form__input phone-number"
+								name="phones[]"
+					/>
+				</div>
+					<div class="col-4 col-lg-2 btn">
+						<label class="form__label" >Удалить</label>
+						<div class="delete-button" style="margin-left:auto" onclick="delete_item(this)">
+							<i class="fa fa-trash" aria-hidden="true"></i>
+						</div>
+					</div>
+			</div>
+		`
+            elem.append(item)
+            event.stopPropagation()
+            return false
+        }
+
+        function add_social(event) {
+            const elem = $("#social")
+            const item = `
+			<div class="form-group col-12 row">
+			<div class="col-xs-8 col-lg-10">
+					<label
+						class="form__label"
+						for="social[]"
+					>
+						Ссылка на социальные сети
+                        </label>
+                        <input
+                                    class="form__input"
+                                    name="social[]"
+                        />
+                    </div>
+                        <div class="col-4 col-lg-2 btn">
+                            <label class="form__label" >Удалить</label>
+						<div class="delete-button" style="margin-left:auto" onclick="delete_item(this)">
+							<i class="fa fa-trash" aria-hidden="true"></i>
+						</div>
+					</div>
+			</div>
+		`
+            elem.append(item)
+            event.stopPropagation()
+            return false
+        }
+
+        document.getElementById("add_phone").onclick = add_phone
+        document.getElementById("add_social").onclick = add_social
+
+        function delete_item(el) {
+            var to_delete = $(el).parent().parent();
+            $(to_delete).remove();
+        }
+
+    </script>
+{% endblock %}
